@@ -1,0 +1,2725 @@
+{
+  "metadata": {
+    "num_scenarios": 100,
+    "base_seed": 2000,
+    "grid_width": 50,
+    "grid_height": 50,
+    "density": 0.2,
+    "start_pos": [
+      5,
+      5
+    ],
+    "goal_pos": [
+      45,
+      45
+    ],
+    "robot_radius": 0.35,
+    "inflation_radius": 1.5,
+    "cost_weight": 1.5,
+    "movement_mode": "8-connected (diagonal allowed)",
+    "map_type": "Costmap",
+    "benchmark_version": "postfix_costmap_v1"
+  },
+  "records": [
+    {
+      "scenario_id": 1,
+      "seed": 2000,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.461,
+      "nodes_explored": 1296,
+      "planning_time_ms": 52.72
+    },
+    {
+      "scenario_id": 1,
+      "seed": 2000,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.461,
+      "nodes_explored": 1228,
+      "planning_time_ms": 53.194
+    },
+    {
+      "scenario_id": 1,
+      "seed": 2000,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.461,
+      "nodes_explored": 1817,
+      "planning_time_ms": 74.491
+    },
+    {
+      "scenario_id": 2,
+      "seed": 2001,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.02,
+      "nodes_explored": 1219,
+      "planning_time_ms": 49.615
+    },
+    {
+      "scenario_id": 2,
+      "seed": 2001,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.02,
+      "nodes_explored": 1123,
+      "planning_time_ms": 44.741
+    },
+    {
+      "scenario_id": 2,
+      "seed": 2001,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.02,
+      "nodes_explored": 1829,
+      "planning_time_ms": 62.727
+    },
+    {
+      "scenario_id": 3,
+      "seed": 2002,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.28,
+      "nodes_explored": 1238,
+      "planning_time_ms": 63.77
+    },
+    {
+      "scenario_id": 3,
+      "seed": 2002,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.28,
+      "nodes_explored": 1158,
+      "planning_time_ms": 59.035
+    },
+    {
+      "scenario_id": 3,
+      "seed": 2002,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.28,
+      "nodes_explored": 1809,
+      "planning_time_ms": 69.254
+    },
+    {
+      "scenario_id": 4,
+      "seed": 2003,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.675,
+      "nodes_explored": 1001,
+      "planning_time_ms": 41.627
+    },
+    {
+      "scenario_id": 4,
+      "seed": 2003,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.675,
+      "nodes_explored": 908,
+      "planning_time_ms": 41.04
+    },
+    {
+      "scenario_id": 4,
+      "seed": 2003,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.675,
+      "nodes_explored": 1819,
+      "planning_time_ms": 74.448
+    },
+    {
+      "scenario_id": 5,
+      "seed": 2004,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.919,
+      "nodes_explored": 1135,
+      "planning_time_ms": 52.659
+    },
+    {
+      "scenario_id": 5,
+      "seed": 2004,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.919,
+      "nodes_explored": 1047,
+      "planning_time_ms": 39.752
+    },
+    {
+      "scenario_id": 5,
+      "seed": 2004,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.919,
+      "nodes_explored": 1779,
+      "planning_time_ms": 58.575
+    },
+    {
+      "scenario_id": 6,
+      "seed": 2005,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.018,
+      "nodes_explored": 938,
+      "planning_time_ms": 32.027
+    },
+    {
+      "scenario_id": 6,
+      "seed": 2005,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.018,
+      "nodes_explored": 814,
+      "planning_time_ms": 24.595
+    },
+    {
+      "scenario_id": 6,
+      "seed": 2005,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.018,
+      "nodes_explored": 1810,
+      "planning_time_ms": 59.198
+    },
+    {
+      "scenario_id": 7,
+      "seed": 2006,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.907,
+      "nodes_explored": 1370,
+      "planning_time_ms": 52.154
+    },
+    {
+      "scenario_id": 7,
+      "seed": 2006,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.907,
+      "nodes_explored": 1289,
+      "planning_time_ms": 50.191
+    },
+    {
+      "scenario_id": 7,
+      "seed": 2006,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.907,
+      "nodes_explored": 1861,
+      "planning_time_ms": 76.127
+    },
+    {
+      "scenario_id": 8,
+      "seed": 2007,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.838,
+      "nodes_explored": 634,
+      "planning_time_ms": 36.051
+    },
+    {
+      "scenario_id": 8,
+      "seed": 2007,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.838,
+      "nodes_explored": 562,
+      "planning_time_ms": 30.738
+    },
+    {
+      "scenario_id": 8,
+      "seed": 2007,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.838,
+      "nodes_explored": 1694,
+      "planning_time_ms": 104.058
+    },
+    {
+      "scenario_id": 9,
+      "seed": 2008,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.92,
+      "nodes_explored": 1226,
+      "planning_time_ms": 36.965
+    },
+    {
+      "scenario_id": 9,
+      "seed": 2008,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.92,
+      "nodes_explored": 1136,
+      "planning_time_ms": 34.894
+    },
+    {
+      "scenario_id": 9,
+      "seed": 2008,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.92,
+      "nodes_explored": 1805,
+      "planning_time_ms": 52.586
+    },
+    {
+      "scenario_id": 10,
+      "seed": 2009,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.007,
+      "nodes_explored": 977,
+      "planning_time_ms": 31.62
+    },
+    {
+      "scenario_id": 10,
+      "seed": 2009,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.007,
+      "nodes_explored": 849,
+      "planning_time_ms": 26.785
+    },
+    {
+      "scenario_id": 10,
+      "seed": 2009,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.007,
+      "nodes_explored": 1793,
+      "planning_time_ms": 56.497
+    },
+    {
+      "scenario_id": 11,
+      "seed": 2010,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.418,
+      "nodes_explored": 855,
+      "planning_time_ms": 25.981
+    },
+    {
+      "scenario_id": 11,
+      "seed": 2010,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.418,
+      "nodes_explored": 714,
+      "planning_time_ms": 22.549
+    },
+    {
+      "scenario_id": 11,
+      "seed": 2010,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.418,
+      "nodes_explored": 1777,
+      "planning_time_ms": 58.811
+    },
+    {
+      "scenario_id": 12,
+      "seed": 2011,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 89.02,
+      "nodes_explored": 1168,
+      "planning_time_ms": 34.528
+    },
+    {
+      "scenario_id": 12,
+      "seed": 2011,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 89.02,
+      "nodes_explored": 1098,
+      "planning_time_ms": 36.873
+    },
+    {
+      "scenario_id": 12,
+      "seed": 2011,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 89.02,
+      "nodes_explored": 1803,
+      "planning_time_ms": 56.452
+    },
+    {
+      "scenario_id": 13,
+      "seed": 2012,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.178,
+      "nodes_explored": 1150,
+      "planning_time_ms": 41.267
+    },
+    {
+      "scenario_id": 13,
+      "seed": 2012,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.178,
+      "nodes_explored": 1039,
+      "planning_time_ms": 34.731
+    },
+    {
+      "scenario_id": 13,
+      "seed": 2012,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.178,
+      "nodes_explored": 1812,
+      "planning_time_ms": 54.595
+    },
+    {
+      "scenario_id": 14,
+      "seed": 2013,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.154,
+      "nodes_explored": 1158,
+      "planning_time_ms": 38.161
+    },
+    {
+      "scenario_id": 14,
+      "seed": 2013,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.154,
+      "nodes_explored": 1048,
+      "planning_time_ms": 31.902
+    },
+    {
+      "scenario_id": 14,
+      "seed": 2013,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.154,
+      "nodes_explored": 1800,
+      "planning_time_ms": 52.733
+    },
+    {
+      "scenario_id": 15,
+      "seed": 2014,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.898,
+      "nodes_explored": 962,
+      "planning_time_ms": 33.43
+    },
+    {
+      "scenario_id": 15,
+      "seed": 2014,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.898,
+      "nodes_explored": 846,
+      "planning_time_ms": 29.045
+    },
+    {
+      "scenario_id": 15,
+      "seed": 2014,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.898,
+      "nodes_explored": 1840,
+      "planning_time_ms": 63.254
+    },
+    {
+      "scenario_id": 16,
+      "seed": 2015,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.627,
+      "nodes_explored": 793,
+      "planning_time_ms": 26.546
+    },
+    {
+      "scenario_id": 16,
+      "seed": 2015,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.627,
+      "nodes_explored": 671,
+      "planning_time_ms": 24.552
+    },
+    {
+      "scenario_id": 16,
+      "seed": 2015,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.627,
+      "nodes_explored": 1824,
+      "planning_time_ms": 69.34
+    },
+    {
+      "scenario_id": 17,
+      "seed": 2016,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.848,
+      "nodes_explored": 1188,
+      "planning_time_ms": 38.719
+    },
+    {
+      "scenario_id": 17,
+      "seed": 2016,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.848,
+      "nodes_explored": 1100,
+      "planning_time_ms": 35.268
+    },
+    {
+      "scenario_id": 17,
+      "seed": 2016,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.848,
+      "nodes_explored": 1838,
+      "planning_time_ms": 59.522
+    },
+    {
+      "scenario_id": 18,
+      "seed": 2017,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.981,
+      "nodes_explored": 1150,
+      "planning_time_ms": 35.285
+    },
+    {
+      "scenario_id": 18,
+      "seed": 2017,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.981,
+      "nodes_explored": 1030,
+      "planning_time_ms": 32.779
+    },
+    {
+      "scenario_id": 18,
+      "seed": 2017,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.981,
+      "nodes_explored": 1819,
+      "planning_time_ms": 56.679
+    },
+    {
+      "scenario_id": 19,
+      "seed": 2018,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.837,
+      "nodes_explored": 780,
+      "planning_time_ms": 28.767
+    },
+    {
+      "scenario_id": 19,
+      "seed": 2018,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.837,
+      "nodes_explored": 670,
+      "planning_time_ms": 22.665
+    },
+    {
+      "scenario_id": 19,
+      "seed": 2018,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.837,
+      "nodes_explored": 1806,
+      "planning_time_ms": 63.197
+    },
+    {
+      "scenario_id": 20,
+      "seed": 2019,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.96,
+      "nodes_explored": 1204,
+      "planning_time_ms": 36.04
+    },
+    {
+      "scenario_id": 20,
+      "seed": 2019,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.96,
+      "nodes_explored": 1099,
+      "planning_time_ms": 38.339
+    },
+    {
+      "scenario_id": 20,
+      "seed": 2019,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.96,
+      "nodes_explored": 1837,
+      "planning_time_ms": 58.395
+    },
+    {
+      "scenario_id": 21,
+      "seed": 2020,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.449,
+      "nodes_explored": 917,
+      "planning_time_ms": 28.567
+    },
+    {
+      "scenario_id": 21,
+      "seed": 2020,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.449,
+      "nodes_explored": 802,
+      "planning_time_ms": 26.831
+    },
+    {
+      "scenario_id": 21,
+      "seed": 2020,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.449,
+      "nodes_explored": 1800,
+      "planning_time_ms": 53.149
+    },
+    {
+      "scenario_id": 22,
+      "seed": 2021,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.032,
+      "nodes_explored": 1038,
+      "planning_time_ms": 32.931
+    },
+    {
+      "scenario_id": 22,
+      "seed": 2021,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.032,
+      "nodes_explored": 922,
+      "planning_time_ms": 31.301
+    },
+    {
+      "scenario_id": 22,
+      "seed": 2021,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.032,
+      "nodes_explored": 1817,
+      "planning_time_ms": 59.862
+    },
+    {
+      "scenario_id": 23,
+      "seed": 2022,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.479,
+      "nodes_explored": 1204,
+      "planning_time_ms": 35.255
+    },
+    {
+      "scenario_id": 23,
+      "seed": 2022,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.479,
+      "nodes_explored": 1116,
+      "planning_time_ms": 33.481
+    },
+    {
+      "scenario_id": 23,
+      "seed": 2022,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.479,
+      "nodes_explored": 1786,
+      "planning_time_ms": 52.771
+    },
+    {
+      "scenario_id": 24,
+      "seed": 2023,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.02,
+      "nodes_explored": 957,
+      "planning_time_ms": 29.113
+    },
+    {
+      "scenario_id": 24,
+      "seed": 2023,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.02,
+      "nodes_explored": 822,
+      "planning_time_ms": 26.252
+    },
+    {
+      "scenario_id": 24,
+      "seed": 2023,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.02,
+      "nodes_explored": 1822,
+      "planning_time_ms": 50.13
+    },
+    {
+      "scenario_id": 25,
+      "seed": 2024,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.053,
+      "nodes_explored": 874,
+      "planning_time_ms": 27.667
+    },
+    {
+      "scenario_id": 25,
+      "seed": 2024,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.053,
+      "nodes_explored": 747,
+      "planning_time_ms": 26.35
+    },
+    {
+      "scenario_id": 25,
+      "seed": 2024,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.053,
+      "nodes_explored": 1808,
+      "planning_time_ms": 69.904
+    },
+    {
+      "scenario_id": 26,
+      "seed": 2025,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 73.047,
+      "nodes_explored": 832,
+      "planning_time_ms": 63.601
+    },
+    {
+      "scenario_id": 26,
+      "seed": 2025,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 73.047,
+      "nodes_explored": 680,
+      "planning_time_ms": 47.813
+    },
+    {
+      "scenario_id": 26,
+      "seed": 2025,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 73.047,
+      "nodes_explored": 1835,
+      "planning_time_ms": 127.045
+    },
+    {
+      "scenario_id": 27,
+      "seed": 2026,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.018,
+      "nodes_explored": 1064,
+      "planning_time_ms": 44.716
+    },
+    {
+      "scenario_id": 27,
+      "seed": 2026,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.018,
+      "nodes_explored": 976,
+      "planning_time_ms": 46.856
+    },
+    {
+      "scenario_id": 27,
+      "seed": 2026,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.018,
+      "nodes_explored": 1826,
+      "planning_time_ms": 71.532
+    },
+    {
+      "scenario_id": 28,
+      "seed": 2027,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.523,
+      "nodes_explored": 1007,
+      "planning_time_ms": 76.572
+    },
+    {
+      "scenario_id": 28,
+      "seed": 2027,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.523,
+      "nodes_explored": 859,
+      "planning_time_ms": 77.138
+    },
+    {
+      "scenario_id": 28,
+      "seed": 2027,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.523,
+      "nodes_explored": 1826,
+      "planning_time_ms": 135.27
+    },
+    {
+      "scenario_id": 29,
+      "seed": 2028,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.922,
+      "nodes_explored": 1063,
+      "planning_time_ms": 49.083
+    },
+    {
+      "scenario_id": 29,
+      "seed": 2028,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.922,
+      "nodes_explored": 945,
+      "planning_time_ms": 78.42
+    },
+    {
+      "scenario_id": 29,
+      "seed": 2028,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.922,
+      "nodes_explored": 1828,
+      "planning_time_ms": 79.956
+    },
+    {
+      "scenario_id": 30,
+      "seed": 2029,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.133,
+      "nodes_explored": 966,
+      "planning_time_ms": 35.579
+    },
+    {
+      "scenario_id": 30,
+      "seed": 2029,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.133,
+      "nodes_explored": 855,
+      "planning_time_ms": 29.054
+    },
+    {
+      "scenario_id": 30,
+      "seed": 2029,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.133,
+      "nodes_explored": 1781,
+      "planning_time_ms": 51.384
+    },
+    {
+      "scenario_id": 31,
+      "seed": 2030,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.815,
+      "nodes_explored": 961,
+      "planning_time_ms": 31.97
+    },
+    {
+      "scenario_id": 31,
+      "seed": 2030,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.815,
+      "nodes_explored": 828,
+      "planning_time_ms": 26.535
+    },
+    {
+      "scenario_id": 31,
+      "seed": 2030,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.815,
+      "nodes_explored": 1830,
+      "planning_time_ms": 54.867
+    },
+    {
+      "scenario_id": 32,
+      "seed": 2031,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.893,
+      "nodes_explored": 1032,
+      "planning_time_ms": 30.197
+    },
+    {
+      "scenario_id": 32,
+      "seed": 2031,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.893,
+      "nodes_explored": 907,
+      "planning_time_ms": 35.112
+    },
+    {
+      "scenario_id": 32,
+      "seed": 2031,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.893,
+      "nodes_explored": 1814,
+      "planning_time_ms": 90.266
+    },
+    {
+      "scenario_id": 33,
+      "seed": 2032,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 71.994,
+      "nodes_explored": 644,
+      "planning_time_ms": 26.389
+    },
+    {
+      "scenario_id": 33,
+      "seed": 2032,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 71.994,
+      "nodes_explored": 553,
+      "planning_time_ms": 24.685
+    },
+    {
+      "scenario_id": 33,
+      "seed": 2032,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 71.994,
+      "nodes_explored": 1755,
+      "planning_time_ms": 73.002
+    },
+    {
+      "scenario_id": 34,
+      "seed": 2033,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.696,
+      "nodes_explored": 903,
+      "planning_time_ms": 37.169
+    },
+    {
+      "scenario_id": 34,
+      "seed": 2033,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.696,
+      "nodes_explored": 796,
+      "planning_time_ms": 24.471
+    },
+    {
+      "scenario_id": 34,
+      "seed": 2033,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.696,
+      "nodes_explored": 1806,
+      "planning_time_ms": 49.264
+    },
+    {
+      "scenario_id": 35,
+      "seed": 2034,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.133,
+      "nodes_explored": 873,
+      "planning_time_ms": 28.107
+    },
+    {
+      "scenario_id": 35,
+      "seed": 2034,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.133,
+      "nodes_explored": 735,
+      "planning_time_ms": 25.7
+    },
+    {
+      "scenario_id": 35,
+      "seed": 2034,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.133,
+      "nodes_explored": 1743,
+      "planning_time_ms": 51.796
+    },
+    {
+      "scenario_id": 36,
+      "seed": 2035,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.174,
+      "nodes_explored": 1014,
+      "planning_time_ms": 44.254
+    },
+    {
+      "scenario_id": 36,
+      "seed": 2035,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.174,
+      "nodes_explored": 914,
+      "planning_time_ms": 36.054
+    },
+    {
+      "scenario_id": 36,
+      "seed": 2035,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.174,
+      "nodes_explored": 1775,
+      "planning_time_ms": 72.297
+    },
+    {
+      "scenario_id": 37,
+      "seed": 2036,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.584,
+      "nodes_explored": 1107,
+      "planning_time_ms": 51.61
+    },
+    {
+      "scenario_id": 37,
+      "seed": 2036,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.584,
+      "nodes_explored": 993,
+      "planning_time_ms": 79.145
+    },
+    {
+      "scenario_id": 37,
+      "seed": 2036,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.584,
+      "nodes_explored": 1829,
+      "planning_time_ms": 95.14
+    },
+    {
+      "scenario_id": 38,
+      "seed": 2037,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.89,
+      "nodes_explored": 1216,
+      "planning_time_ms": 52.241
+    },
+    {
+      "scenario_id": 38,
+      "seed": 2037,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.89,
+      "nodes_explored": 1100,
+      "planning_time_ms": 40.765
+    },
+    {
+      "scenario_id": 38,
+      "seed": 2037,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 85.89,
+      "nodes_explored": 1829,
+      "planning_time_ms": 72.015
+    },
+    {
+      "scenario_id": 39,
+      "seed": 2038,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.288,
+      "nodes_explored": 825,
+      "planning_time_ms": 34.458
+    },
+    {
+      "scenario_id": 39,
+      "seed": 2038,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.288,
+      "nodes_explored": 714,
+      "planning_time_ms": 23.432
+    },
+    {
+      "scenario_id": 39,
+      "seed": 2038,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.288,
+      "nodes_explored": 1792,
+      "planning_time_ms": 67.592
+    },
+    {
+      "scenario_id": 40,
+      "seed": 2039,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.898,
+      "nodes_explored": 936,
+      "planning_time_ms": 37.927
+    },
+    {
+      "scenario_id": 40,
+      "seed": 2039,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.898,
+      "nodes_explored": 807,
+      "planning_time_ms": 34.144
+    },
+    {
+      "scenario_id": 40,
+      "seed": 2039,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.898,
+      "nodes_explored": 1841,
+      "planning_time_ms": 67.915
+    },
+    {
+      "scenario_id": 41,
+      "seed": 2040,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 90.433,
+      "nodes_explored": 1524,
+      "planning_time_ms": 65.703
+    },
+    {
+      "scenario_id": 41,
+      "seed": 2040,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 90.433,
+      "nodes_explored": 1469,
+      "planning_time_ms": 64.755
+    },
+    {
+      "scenario_id": 41,
+      "seed": 2040,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 90.433,
+      "nodes_explored": 1801,
+      "planning_time_ms": 74.558
+    },
+    {
+      "scenario_id": 42,
+      "seed": 2041,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.162,
+      "nodes_explored": 1453,
+      "planning_time_ms": 64.53
+    },
+    {
+      "scenario_id": 42,
+      "seed": 2041,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.162,
+      "nodes_explored": 1389,
+      "planning_time_ms": 56.069
+    },
+    {
+      "scenario_id": 42,
+      "seed": 2041,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.162,
+      "nodes_explored": 1853,
+      "planning_time_ms": 68.835
+    },
+    {
+      "scenario_id": 43,
+      "seed": 2042,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.148,
+      "nodes_explored": 1069,
+      "planning_time_ms": 40.159
+    },
+    {
+      "scenario_id": 43,
+      "seed": 2042,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.148,
+      "nodes_explored": 935,
+      "planning_time_ms": 35.165
+    },
+    {
+      "scenario_id": 43,
+      "seed": 2042,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.148,
+      "nodes_explored": 1876,
+      "planning_time_ms": 64.085
+    },
+    {
+      "scenario_id": 44,
+      "seed": 2043,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.832,
+      "nodes_explored": 1158,
+      "planning_time_ms": 47.345
+    },
+    {
+      "scenario_id": 44,
+      "seed": 2043,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.832,
+      "nodes_explored": 1025,
+      "planning_time_ms": 48.251
+    },
+    {
+      "scenario_id": 44,
+      "seed": 2043,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.832,
+      "nodes_explored": 1808,
+      "planning_time_ms": 71.419
+    },
+    {
+      "scenario_id": 45,
+      "seed": 2044,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.888,
+      "nodes_explored": 779,
+      "planning_time_ms": 22.855
+    },
+    {
+      "scenario_id": 45,
+      "seed": 2044,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.888,
+      "nodes_explored": 673,
+      "planning_time_ms": 21.693
+    },
+    {
+      "scenario_id": 45,
+      "seed": 2044,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.888,
+      "nodes_explored": 1756,
+      "planning_time_ms": 62.508
+    },
+    {
+      "scenario_id": 46,
+      "seed": 2045,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.458,
+      "nodes_explored": 1024,
+      "planning_time_ms": 38.777
+    },
+    {
+      "scenario_id": 46,
+      "seed": 2045,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.458,
+      "nodes_explored": 890,
+      "planning_time_ms": 29.742
+    },
+    {
+      "scenario_id": 46,
+      "seed": 2045,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.458,
+      "nodes_explored": 1830,
+      "planning_time_ms": 54.887
+    },
+    {
+      "scenario_id": 47,
+      "seed": 2046,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.81,
+      "nodes_explored": 884,
+      "planning_time_ms": 69.314
+    },
+    {
+      "scenario_id": 47,
+      "seed": 2046,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.81,
+      "nodes_explored": 776,
+      "planning_time_ms": 29.924
+    },
+    {
+      "scenario_id": 47,
+      "seed": 2046,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.81,
+      "nodes_explored": 1736,
+      "planning_time_ms": 55.159
+    },
+    {
+      "scenario_id": 48,
+      "seed": 2047,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.439,
+      "nodes_explored": 738,
+      "planning_time_ms": 26.808
+    },
+    {
+      "scenario_id": 48,
+      "seed": 2047,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.439,
+      "nodes_explored": 599,
+      "planning_time_ms": 23.944
+    },
+    {
+      "scenario_id": 48,
+      "seed": 2047,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.439,
+      "nodes_explored": 1758,
+      "planning_time_ms": 68.256
+    },
+    {
+      "scenario_id": 49,
+      "seed": 2048,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.918,
+      "nodes_explored": 1046,
+      "planning_time_ms": 46.292
+    },
+    {
+      "scenario_id": 49,
+      "seed": 2048,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.918,
+      "nodes_explored": 885,
+      "planning_time_ms": 35.916
+    },
+    {
+      "scenario_id": 49,
+      "seed": 2048,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.918,
+      "nodes_explored": 1819,
+      "planning_time_ms": 79.193
+    },
+    {
+      "scenario_id": 50,
+      "seed": 2049,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.913,
+      "nodes_explored": 705,
+      "planning_time_ms": 22.457
+    },
+    {
+      "scenario_id": 50,
+      "seed": 2049,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.913,
+      "nodes_explored": 570,
+      "planning_time_ms": 19.25
+    },
+    {
+      "scenario_id": 50,
+      "seed": 2049,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 74.913,
+      "nodes_explored": 1805,
+      "planning_time_ms": 54.15
+    },
+    {
+      "scenario_id": 51,
+      "seed": 2050,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.816,
+      "nodes_explored": 1063,
+      "planning_time_ms": 34.361
+    },
+    {
+      "scenario_id": 51,
+      "seed": 2050,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.816,
+      "nodes_explored": 981,
+      "planning_time_ms": 30.303
+    },
+    {
+      "scenario_id": 51,
+      "seed": 2050,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.816,
+      "nodes_explored": 1784,
+      "planning_time_ms": 57.883
+    },
+    {
+      "scenario_id": 52,
+      "seed": 2051,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.169,
+      "nodes_explored": 1085,
+      "planning_time_ms": 36.429
+    },
+    {
+      "scenario_id": 52,
+      "seed": 2051,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.169,
+      "nodes_explored": 920,
+      "planning_time_ms": 37.454
+    },
+    {
+      "scenario_id": 52,
+      "seed": 2051,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.169,
+      "nodes_explored": 1836,
+      "planning_time_ms": 72.272
+    },
+    {
+      "scenario_id": 53,
+      "seed": 2052,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.405,
+      "nodes_explored": 1202,
+      "planning_time_ms": 51.809
+    },
+    {
+      "scenario_id": 53,
+      "seed": 2052,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.405,
+      "nodes_explored": 1076,
+      "planning_time_ms": 42.986
+    },
+    {
+      "scenario_id": 53,
+      "seed": 2052,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.405,
+      "nodes_explored": 1862,
+      "planning_time_ms": 61.348
+    },
+    {
+      "scenario_id": 54,
+      "seed": 2053,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 94.358,
+      "nodes_explored": 1438,
+      "planning_time_ms": 56.009
+    },
+    {
+      "scenario_id": 54,
+      "seed": 2053,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 94.358,
+      "nodes_explored": 1385,
+      "planning_time_ms": 53.929
+    },
+    {
+      "scenario_id": 54,
+      "seed": 2053,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 94.358,
+      "nodes_explored": 1792,
+      "planning_time_ms": 64.422
+    },
+    {
+      "scenario_id": 55,
+      "seed": 2054,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.771,
+      "nodes_explored": 957,
+      "planning_time_ms": 37.553
+    },
+    {
+      "scenario_id": 55,
+      "seed": 2054,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.771,
+      "nodes_explored": 805,
+      "planning_time_ms": 33.403
+    },
+    {
+      "scenario_id": 55,
+      "seed": 2054,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.771,
+      "nodes_explored": 1821,
+      "planning_time_ms": 68.392
+    },
+    {
+      "scenario_id": 56,
+      "seed": 2055,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.749,
+      "nodes_explored": 1086,
+      "planning_time_ms": 41.967
+    },
+    {
+      "scenario_id": 56,
+      "seed": 2055,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.749,
+      "nodes_explored": 963,
+      "planning_time_ms": 36.045
+    },
+    {
+      "scenario_id": 56,
+      "seed": 2055,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.749,
+      "nodes_explored": 1798,
+      "planning_time_ms": 61.947
+    },
+    {
+      "scenario_id": 57,
+      "seed": 2056,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.928,
+      "nodes_explored": 1056,
+      "planning_time_ms": 42.977
+    },
+    {
+      "scenario_id": 57,
+      "seed": 2056,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.928,
+      "nodes_explored": 933,
+      "planning_time_ms": 36.57
+    },
+    {
+      "scenario_id": 57,
+      "seed": 2056,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.928,
+      "nodes_explored": 1846,
+      "planning_time_ms": 75.902
+    },
+    {
+      "scenario_id": 58,
+      "seed": 2057,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.784,
+      "nodes_explored": 1040,
+      "planning_time_ms": 49.479
+    },
+    {
+      "scenario_id": 58,
+      "seed": 2057,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.784,
+      "nodes_explored": 939,
+      "planning_time_ms": 42.562
+    },
+    {
+      "scenario_id": 58,
+      "seed": 2057,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.784,
+      "nodes_explored": 1818,
+      "planning_time_ms": 87.201
+    },
+    {
+      "scenario_id": 59,
+      "seed": 2058,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.135,
+      "nodes_explored": 1083,
+      "planning_time_ms": 47.57
+    },
+    {
+      "scenario_id": 59,
+      "seed": 2058,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.135,
+      "nodes_explored": 1008,
+      "planning_time_ms": 45.524
+    },
+    {
+      "scenario_id": 59,
+      "seed": 2058,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.135,
+      "nodes_explored": 1833,
+      "planning_time_ms": 66.938
+    },
+    {
+      "scenario_id": 60,
+      "seed": 2059,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.906,
+      "nodes_explored": 820,
+      "planning_time_ms": 30.456
+    },
+    {
+      "scenario_id": 60,
+      "seed": 2059,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.906,
+      "nodes_explored": 706,
+      "planning_time_ms": 23.861
+    },
+    {
+      "scenario_id": 60,
+      "seed": 2059,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.906,
+      "nodes_explored": 1835,
+      "planning_time_ms": 70.426
+    },
+    {
+      "scenario_id": 61,
+      "seed": 2060,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.582,
+      "nodes_explored": 1154,
+      "planning_time_ms": 55.216
+    },
+    {
+      "scenario_id": 61,
+      "seed": 2060,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.582,
+      "nodes_explored": 987,
+      "planning_time_ms": 41.911
+    },
+    {
+      "scenario_id": 61,
+      "seed": 2060,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.582,
+      "nodes_explored": 1829,
+      "planning_time_ms": 74.204
+    },
+    {
+      "scenario_id": 62,
+      "seed": 2061,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.737,
+      "nodes_explored": 875,
+      "planning_time_ms": 34.509
+    },
+    {
+      "scenario_id": 62,
+      "seed": 2061,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.737,
+      "nodes_explored": 745,
+      "planning_time_ms": 27.955
+    },
+    {
+      "scenario_id": 62,
+      "seed": 2061,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.737,
+      "nodes_explored": 1815,
+      "planning_time_ms": 69.48
+    },
+    {
+      "scenario_id": 63,
+      "seed": 2062,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.487,
+      "nodes_explored": 933,
+      "planning_time_ms": 49.633
+    },
+    {
+      "scenario_id": 63,
+      "seed": 2062,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.487,
+      "nodes_explored": 827,
+      "planning_time_ms": 31.918
+    },
+    {
+      "scenario_id": 63,
+      "seed": 2062,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.487,
+      "nodes_explored": 1757,
+      "planning_time_ms": 65.571
+    },
+    {
+      "scenario_id": 64,
+      "seed": 2063,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.828,
+      "nodes_explored": 1178,
+      "planning_time_ms": 38.603
+    },
+    {
+      "scenario_id": 64,
+      "seed": 2063,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.828,
+      "nodes_explored": 1070,
+      "planning_time_ms": 38.446
+    },
+    {
+      "scenario_id": 64,
+      "seed": 2063,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.828,
+      "nodes_explored": 1813,
+      "planning_time_ms": 66.523
+    },
+    {
+      "scenario_id": 65,
+      "seed": 2064,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.81,
+      "nodes_explored": 1301,
+      "planning_time_ms": 52.23
+    },
+    {
+      "scenario_id": 65,
+      "seed": 2064,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.81,
+      "nodes_explored": 1241,
+      "planning_time_ms": 46.91
+    },
+    {
+      "scenario_id": 65,
+      "seed": 2064,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.81,
+      "nodes_explored": 1841,
+      "planning_time_ms": 66.574
+    },
+    {
+      "scenario_id": 66,
+      "seed": 2065,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.776,
+      "nodes_explored": 1093,
+      "planning_time_ms": 39.864
+    },
+    {
+      "scenario_id": 66,
+      "seed": 2065,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.776,
+      "nodes_explored": 944,
+      "planning_time_ms": 36.189
+    },
+    {
+      "scenario_id": 66,
+      "seed": 2065,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.776,
+      "nodes_explored": 1838,
+      "planning_time_ms": 63.594
+    },
+    {
+      "scenario_id": 67,
+      "seed": 2066,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.19,
+      "nodes_explored": 1217,
+      "planning_time_ms": 39.671
+    },
+    {
+      "scenario_id": 67,
+      "seed": 2066,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.19,
+      "nodes_explored": 1123,
+      "planning_time_ms": 42.979
+    },
+    {
+      "scenario_id": 67,
+      "seed": 2066,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.19,
+      "nodes_explored": 1829,
+      "planning_time_ms": 60.169
+    },
+    {
+      "scenario_id": 68,
+      "seed": 2067,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.74,
+      "nodes_explored": 1056,
+      "planning_time_ms": 36.176
+    },
+    {
+      "scenario_id": 68,
+      "seed": 2067,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.74,
+      "nodes_explored": 932,
+      "planning_time_ms": 75.164
+    },
+    {
+      "scenario_id": 68,
+      "seed": 2067,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.74,
+      "nodes_explored": 1854,
+      "planning_time_ms": 55.827
+    },
+    {
+      "scenario_id": 69,
+      "seed": 2068,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.801,
+      "nodes_explored": 1000,
+      "planning_time_ms": 33.59
+    },
+    {
+      "scenario_id": 69,
+      "seed": 2068,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.801,
+      "nodes_explored": 882,
+      "planning_time_ms": 39.945
+    },
+    {
+      "scenario_id": 69,
+      "seed": 2068,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.801,
+      "nodes_explored": 1810,
+      "planning_time_ms": 61.456
+    },
+    {
+      "scenario_id": 70,
+      "seed": 2069,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.25,
+      "nodes_explored": 932,
+      "planning_time_ms": 41.258
+    },
+    {
+      "scenario_id": 70,
+      "seed": 2069,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.25,
+      "nodes_explored": 832,
+      "planning_time_ms": 30.88
+    },
+    {
+      "scenario_id": 70,
+      "seed": 2069,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 76.25,
+      "nodes_explored": 1771,
+      "planning_time_ms": 80.01
+    },
+    {
+      "scenario_id": 71,
+      "seed": 2070,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.291,
+      "nodes_explored": 1090,
+      "planning_time_ms": 41.089
+    },
+    {
+      "scenario_id": 71,
+      "seed": 2070,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.291,
+      "nodes_explored": 999,
+      "planning_time_ms": 68.106
+    },
+    {
+      "scenario_id": 71,
+      "seed": 2070,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.291,
+      "nodes_explored": 1831,
+      "planning_time_ms": 69.78
+    },
+    {
+      "scenario_id": 72,
+      "seed": 2071,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.252,
+      "nodes_explored": 877,
+      "planning_time_ms": 48.103
+    },
+    {
+      "scenario_id": 72,
+      "seed": 2071,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.252,
+      "nodes_explored": 754,
+      "planning_time_ms": 28.856
+    },
+    {
+      "scenario_id": 72,
+      "seed": 2071,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.252,
+      "nodes_explored": 1827,
+      "planning_time_ms": 75.894
+    },
+    {
+      "scenario_id": 73,
+      "seed": 2072,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.081,
+      "nodes_explored": 838,
+      "planning_time_ms": 42.232
+    },
+    {
+      "scenario_id": 73,
+      "seed": 2072,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.081,
+      "nodes_explored": 704,
+      "planning_time_ms": 35.419
+    },
+    {
+      "scenario_id": 73,
+      "seed": 2072,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.081,
+      "nodes_explored": 1839,
+      "planning_time_ms": 89.47
+    },
+    {
+      "scenario_id": 74,
+      "seed": 2073,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.929,
+      "nodes_explored": 1068,
+      "planning_time_ms": 35.307
+    },
+    {
+      "scenario_id": 74,
+      "seed": 2073,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.929,
+      "nodes_explored": 986,
+      "planning_time_ms": 38.196
+    },
+    {
+      "scenario_id": 74,
+      "seed": 2073,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.929,
+      "nodes_explored": 1795,
+      "planning_time_ms": 88.055
+    },
+    {
+      "scenario_id": 75,
+      "seed": 2074,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.973,
+      "nodes_explored": 1295,
+      "planning_time_ms": 46.972
+    },
+    {
+      "scenario_id": 75,
+      "seed": 2074,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.973,
+      "nodes_explored": 1192,
+      "planning_time_ms": 38.781
+    },
+    {
+      "scenario_id": 75,
+      "seed": 2074,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.973,
+      "nodes_explored": 1811,
+      "planning_time_ms": 64.854
+    },
+    {
+      "scenario_id": 76,
+      "seed": 2075,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.818,
+      "nodes_explored": 993,
+      "planning_time_ms": 41.418
+    },
+    {
+      "scenario_id": 76,
+      "seed": 2075,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.818,
+      "nodes_explored": 906,
+      "planning_time_ms": 32.483
+    },
+    {
+      "scenario_id": 76,
+      "seed": 2075,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.818,
+      "nodes_explored": 1793,
+      "planning_time_ms": 62.944
+    },
+    {
+      "scenario_id": 77,
+      "seed": 2076,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.885,
+      "nodes_explored": 1232,
+      "planning_time_ms": 39.469
+    },
+    {
+      "scenario_id": 77,
+      "seed": 2076,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.885,
+      "nodes_explored": 1142,
+      "planning_time_ms": 43.372
+    },
+    {
+      "scenario_id": 77,
+      "seed": 2076,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.885,
+      "nodes_explored": 1784,
+      "planning_time_ms": 63.331
+    },
+    {
+      "scenario_id": 78,
+      "seed": 2077,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.796,
+      "nodes_explored": 1017,
+      "planning_time_ms": 36.569
+    },
+    {
+      "scenario_id": 78,
+      "seed": 2077,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.796,
+      "nodes_explored": 869,
+      "planning_time_ms": 30.255
+    },
+    {
+      "scenario_id": 78,
+      "seed": 2077,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 78.796,
+      "nodes_explored": 1797,
+      "planning_time_ms": 57.253
+    },
+    {
+      "scenario_id": 79,
+      "seed": 2078,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.696,
+      "nodes_explored": 1069,
+      "planning_time_ms": 43.43
+    },
+    {
+      "scenario_id": 79,
+      "seed": 2078,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.696,
+      "nodes_explored": 949,
+      "planning_time_ms": 41.74
+    },
+    {
+      "scenario_id": 79,
+      "seed": 2078,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.696,
+      "nodes_explored": 1790,
+      "planning_time_ms": 68.4
+    },
+    {
+      "scenario_id": 80,
+      "seed": 2079,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.223,
+      "nodes_explored": 1382,
+      "planning_time_ms": 48.492
+    },
+    {
+      "scenario_id": 80,
+      "seed": 2079,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.223,
+      "nodes_explored": 1321,
+      "planning_time_ms": 46.835
+    },
+    {
+      "scenario_id": 80,
+      "seed": 2079,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 88.223,
+      "nodes_explored": 1842,
+      "planning_time_ms": 68.063
+    },
+    {
+      "scenario_id": 81,
+      "seed": 2080,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.473,
+      "nodes_explored": 839,
+      "planning_time_ms": 28.888
+    },
+    {
+      "scenario_id": 81,
+      "seed": 2080,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.473,
+      "nodes_explored": 737,
+      "planning_time_ms": 27.928
+    },
+    {
+      "scenario_id": 81,
+      "seed": 2080,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.473,
+      "nodes_explored": 1789,
+      "planning_time_ms": 56.838
+    },
+    {
+      "scenario_id": 82,
+      "seed": 2081,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 73.107,
+      "nodes_explored": 713,
+      "planning_time_ms": 33.096
+    },
+    {
+      "scenario_id": 82,
+      "seed": 2081,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 73.107,
+      "nodes_explored": 602,
+      "planning_time_ms": 25.077
+    },
+    {
+      "scenario_id": 82,
+      "seed": 2081,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 73.107,
+      "nodes_explored": 1751,
+      "planning_time_ms": 66.358
+    },
+    {
+      "scenario_id": 83,
+      "seed": 2082,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.44,
+      "nodes_explored": 1009,
+      "planning_time_ms": 40.475
+    },
+    {
+      "scenario_id": 83,
+      "seed": 2082,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.44,
+      "nodes_explored": 874,
+      "planning_time_ms": 30.119
+    },
+    {
+      "scenario_id": 83,
+      "seed": 2082,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 79.44,
+      "nodes_explored": 1774,
+      "planning_time_ms": 61.017
+    },
+    {
+      "scenario_id": 84,
+      "seed": 2083,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.735,
+      "nodes_explored": 1172,
+      "planning_time_ms": 43.77
+    },
+    {
+      "scenario_id": 84,
+      "seed": 2083,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.735,
+      "nodes_explored": 1095,
+      "planning_time_ms": 48.725
+    },
+    {
+      "scenario_id": 84,
+      "seed": 2083,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 84.735,
+      "nodes_explored": 1811,
+      "planning_time_ms": 105.724
+    },
+    {
+      "scenario_id": 85,
+      "seed": 2084,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.819,
+      "nodes_explored": 779,
+      "planning_time_ms": 43.379
+    },
+    {
+      "scenario_id": 85,
+      "seed": 2084,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.819,
+      "nodes_explored": 674,
+      "planning_time_ms": 27.861
+    },
+    {
+      "scenario_id": 85,
+      "seed": 2084,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.819,
+      "nodes_explored": 1789,
+      "planning_time_ms": 53.895
+    },
+    {
+      "scenario_id": 86,
+      "seed": 2085,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.694,
+      "nodes_explored": 936,
+      "planning_time_ms": 33.098
+    },
+    {
+      "scenario_id": 86,
+      "seed": 2085,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.694,
+      "nodes_explored": 831,
+      "planning_time_ms": 28.084
+    },
+    {
+      "scenario_id": 86,
+      "seed": 2085,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.694,
+      "nodes_explored": 1827,
+      "planning_time_ms": 68.725
+    },
+    {
+      "scenario_id": 87,
+      "seed": 2086,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.162,
+      "nodes_explored": 1170,
+      "planning_time_ms": 51.193
+    },
+    {
+      "scenario_id": 87,
+      "seed": 2086,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.162,
+      "nodes_explored": 1096,
+      "planning_time_ms": 41.219
+    },
+    {
+      "scenario_id": 87,
+      "seed": 2086,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.162,
+      "nodes_explored": 1808,
+      "planning_time_ms": 54.949
+    },
+    {
+      "scenario_id": 88,
+      "seed": 2087,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.427,
+      "nodes_explored": 1168,
+      "planning_time_ms": 37.435
+    },
+    {
+      "scenario_id": 88,
+      "seed": 2087,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.427,
+      "nodes_explored": 1053,
+      "planning_time_ms": 34.487
+    },
+    {
+      "scenario_id": 88,
+      "seed": 2087,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 81.427,
+      "nodes_explored": 1806,
+      "planning_time_ms": 59.173
+    },
+    {
+      "scenario_id": 89,
+      "seed": 2088,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.158,
+      "nodes_explored": 1228,
+      "planning_time_ms": 39.329
+    },
+    {
+      "scenario_id": 89,
+      "seed": 2088,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.158,
+      "nodes_explored": 1149,
+      "planning_time_ms": 40.029
+    },
+    {
+      "scenario_id": 89,
+      "seed": 2088,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 87.158,
+      "nodes_explored": 1784,
+      "planning_time_ms": 51.912
+    },
+    {
+      "scenario_id": 90,
+      "seed": 2089,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.982,
+      "nodes_explored": 797,
+      "planning_time_ms": 23.814
+    },
+    {
+      "scenario_id": 90,
+      "seed": 2089,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.982,
+      "nodes_explored": 696,
+      "planning_time_ms": 25.651
+    },
+    {
+      "scenario_id": 90,
+      "seed": 2089,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.982,
+      "nodes_explored": 1804,
+      "planning_time_ms": 63.268
+    },
+    {
+      "scenario_id": 91,
+      "seed": 2090,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.874,
+      "nodes_explored": 945,
+      "planning_time_ms": 32.18
+    },
+    {
+      "scenario_id": 91,
+      "seed": 2090,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.874,
+      "nodes_explored": 811,
+      "planning_time_ms": 36.468
+    },
+    {
+      "scenario_id": 91,
+      "seed": 2090,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 77.874,
+      "nodes_explored": 1861,
+      "planning_time_ms": 73.65
+    },
+    {
+      "scenario_id": 92,
+      "seed": 2091,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.207,
+      "nodes_explored": 992,
+      "planning_time_ms": 36.818
+    },
+    {
+      "scenario_id": 92,
+      "seed": 2091,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.207,
+      "nodes_explored": 876,
+      "planning_time_ms": 36.767
+    },
+    {
+      "scenario_id": 92,
+      "seed": 2091,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.207,
+      "nodes_explored": 1823,
+      "planning_time_ms": 69.963
+    },
+    {
+      "scenario_id": 93,
+      "seed": 2092,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.686,
+      "nodes_explored": 1092,
+      "planning_time_ms": 39.629
+    },
+    {
+      "scenario_id": 93,
+      "seed": 2092,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.686,
+      "nodes_explored": 1005,
+      "planning_time_ms": 40.579
+    },
+    {
+      "scenario_id": 93,
+      "seed": 2092,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.686,
+      "nodes_explored": 1803,
+      "planning_time_ms": 66.683
+    },
+    {
+      "scenario_id": 94,
+      "seed": 2093,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.749,
+      "nodes_explored": 982,
+      "planning_time_ms": 35.379
+    },
+    {
+      "scenario_id": 94,
+      "seed": 2093,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.749,
+      "nodes_explored": 879,
+      "planning_time_ms": 29.129
+    },
+    {
+      "scenario_id": 94,
+      "seed": 2093,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 80.749,
+      "nodes_explored": 1797,
+      "planning_time_ms": 60.428
+    },
+    {
+      "scenario_id": 95,
+      "seed": 2094,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.065,
+      "nodes_explored": 1121,
+      "planning_time_ms": 43.706
+    },
+    {
+      "scenario_id": 95,
+      "seed": 2094,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.065,
+      "nodes_explored": 997,
+      "planning_time_ms": 38.709
+    },
+    {
+      "scenario_id": 95,
+      "seed": 2094,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 83.065,
+      "nodes_explored": 1833,
+      "planning_time_ms": 81.804
+    },
+    {
+      "scenario_id": 96,
+      "seed": 2095,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.793,
+      "nodes_explored": 1075,
+      "planning_time_ms": 49.472
+    },
+    {
+      "scenario_id": 96,
+      "seed": 2095,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.793,
+      "nodes_explored": 983,
+      "planning_time_ms": 34.145
+    },
+    {
+      "scenario_id": 96,
+      "seed": 2095,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.793,
+      "nodes_explored": 1783,
+      "planning_time_ms": 59.85
+    },
+    {
+      "scenario_id": 97,
+      "seed": 2096,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.151,
+      "nodes_explored": 561,
+      "planning_time_ms": 20.203
+    },
+    {
+      "scenario_id": 97,
+      "seed": 2096,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.151,
+      "nodes_explored": 462,
+      "planning_time_ms": 14.419
+    },
+    {
+      "scenario_id": 97,
+      "seed": 2096,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 75.151,
+      "nodes_explored": 1788,
+      "planning_time_ms": 67.859
+    },
+    {
+      "scenario_id": 98,
+      "seed": 2097,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.118,
+      "nodes_explored": 1295,
+      "planning_time_ms": 47.853
+    },
+    {
+      "scenario_id": 98,
+      "seed": 2097,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.118,
+      "nodes_explored": 1194,
+      "planning_time_ms": 40.139
+    },
+    {
+      "scenario_id": 98,
+      "seed": 2097,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.118,
+      "nodes_explored": 1836,
+      "planning_time_ms": 69.453
+    },
+    {
+      "scenario_id": 99,
+      "seed": 2098,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.284,
+      "nodes_explored": 1078,
+      "planning_time_ms": 32.831
+    },
+    {
+      "scenario_id": 99,
+      "seed": 2098,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.284,
+      "nodes_explored": 963,
+      "planning_time_ms": 31.232
+    },
+    {
+      "scenario_id": 99,
+      "seed": 2098,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 82.284,
+      "nodes_explored": 1803,
+      "planning_time_ms": 57.253
+    },
+    {
+      "scenario_id": 100,
+      "seed": 2099,
+      "planner_name": "A* (Euclidean) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.074,
+      "nodes_explored": 1134,
+      "planning_time_ms": 34.562
+    },
+    {
+      "scenario_id": 100,
+      "seed": 2099,
+      "planner_name": "A* (Octile) + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.074,
+      "nodes_explored": 1050,
+      "planning_time_ms": 62.52
+    },
+    {
+      "scenario_id": 100,
+      "seed": 2099,
+      "planner_name": "Dijkstra + Costmap",
+      "planning_succeeded": true,
+      "path_cost": 86.074,
+      "nodes_explored": 1783,
+      "planning_time_ms": 99.137
+    }
+  ]
+}

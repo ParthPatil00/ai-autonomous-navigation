@@ -1,0 +1,47 @@
+# Default Configuration for Autonomous Navigation System
+
+environment:
+  width: 50         # Number of grid cells horizontally
+  height: 50        # Number of grid cells vertically
+  resolution: 1.0   # Meters per grid cell
+  obstacle_density: 0.20  # Fraction of grid occupied by random obstacles
+  seed: 42          # Random seed for reproducibility
+
+robot:
+  start_pos: [5, 5]     # [gx, gy] initial grid-cell coordinate
+  goal_pos: [45, 45]    # [gx, gy] target grid-cell coordinate
+  radius: 0.35          # Robot collision radius in world metres
+  speed: 1.0            # Linear speed in world metres per second
+  sensor_range: 6.0     # Perception detection range in world metres
+  num_sensor_rays: 36   # Raycast rays for simulated lidar detection
+
+planner:
+  algorithm: "astar"    # "astar" or "dijkstra"
+  heuristic: "euclidean" # "euclidean" or "manhattan" (for A*)
+  allow_diagonal: true  # 8-connectivity vs 4-connectivity
+  smooth_path: false    # Set true to enable collision-safe path smoothing
+
+costmap:
+  enabled: false        # Set true to plan on clearance-aware costmap layer
+  inflation_radius: 1.5 # Clearance decay threshold (meters)
+  safety_margin: 0.0    # Additional forbidden buffer beyond robot radius (meters)
+  cost_scaling_factor: 3.0 # Decay rate for soft clearance penalties
+  max_non_lethal_cost: 199 # Maximum soft cost penalty
+  decay_model: "exponential" # "exponential" or "linear"
+  cost_weight: 1.0      # Weight multiplier for costmap penalties during search
+
+simulation:
+  max_steps: 1000       # Maximum simulation iterations
+  dt: 0.1               # Simulation time step in seconds
+  headless: false       # Set true to run without GUI display
+
+visualization:
+  cell_size: 14         # Pixels per grid cell (50 * 14 = 700px)
+  fps: 30               # Display frame rate
+  window_title: "AI Autonomous Navigation Simulation"
+  show_sensors: true    # Render perception sensor rays
+  show_path: true       # Render planned path
+  show_explored: true   # Render planner explored nodes
+
+logging:
+  level: "INFO"

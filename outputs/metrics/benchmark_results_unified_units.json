@@ -1,0 +1,8122 @@
+{
+  "metadata": {
+    "num_scenarios": 100,
+    "base_seed": 2000,
+    "grid_width": 50,
+    "grid_height": 50,
+    "density": 0.2,
+    "start_pos": [
+      5,
+      5
+    ],
+    "goal_pos": [
+      45,
+      45
+    ],
+    "robot_radius": 0.35,
+    "movement_mode": "8-connected (diagonal allowed)",
+    "benchmark_version": "milestone3_verified"
+  },
+  "records": [
+    {
+      "scenario_id": 1,
+      "seed": 2000,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 64.9,
+      "planning_time_ms": 16.839,
+      "execution_time_ms": 19.041,
+      "nodes_explored": 933,
+      "collision_count": 0,
+      "execution_steps": 650
+    },
+    {
+      "scenario_id": 1,
+      "seed": 2000,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.1,
+      "planning_time_ms": 13.245,
+      "execution_time_ms": 17.165,
+      "nodes_explored": 683,
+      "collision_count": 0,
+      "execution_steps": 652
+    },
+    {
+      "scenario_id": 1,
+      "seed": 2000,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 64.9,
+      "planning_time_ms": 32.084,
+      "execution_time_ms": 19.509,
+      "nodes_explored": 1827,
+      "collision_count": 0,
+      "execution_steps": 650
+    },
+    {
+      "scenario_id": 2,
+      "seed": 2001,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 11.173,
+      "execution_time_ms": 18.86,
+      "nodes_explored": 626,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 2,
+      "seed": 2001,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 6.698,
+      "execution_time_ms": 18.974,
+      "nodes_explored": 366,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 2,
+      "seed": 2001,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 29.91,
+      "execution_time_ms": 19.313,
+      "nodes_explored": 1843,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 3,
+      "seed": 2002,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.2,
+      "planning_time_ms": 18.887,
+      "execution_time_ms": 20.114,
+      "nodes_explored": 962,
+      "collision_count": 0,
+      "execution_steps": 653
+    },
+    {
+      "scenario_id": 3,
+      "seed": 2002,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.3,
+      "planning_time_ms": 12.561,
+      "execution_time_ms": 17.292,
+      "nodes_explored": 668,
+      "collision_count": 0,
+      "execution_steps": 654
+    },
+    {
+      "scenario_id": 3,
+      "seed": 2002,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.5,
+      "planning_time_ms": 31.69,
+      "execution_time_ms": 20.948,
+      "nodes_explored": 1823,
+      "collision_count": 0,
+      "execution_steps": 656
+    },
+    {
+      "scenario_id": 4,
+      "seed": 2003,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.3,
+      "planning_time_ms": 9.235,
+      "execution_time_ms": 19.18,
+      "nodes_explored": 512,
+      "collision_count": 0,
+      "execution_steps": 604
+    },
+    {
+      "scenario_id": 4,
+      "seed": 2003,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.3,
+      "planning_time_ms": 6.48,
+      "execution_time_ms": 16.883,
+      "nodes_explored": 322,
+      "collision_count": 0,
+      "execution_steps": 604
+    },
+    {
+      "scenario_id": 4,
+      "seed": 2003,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.4,
+      "planning_time_ms": 32.576,
+      "execution_time_ms": 18.211,
+      "nodes_explored": 1834,
+      "collision_count": 0,
+      "execution_steps": 605
+    },
+    {
+      "scenario_id": 5,
+      "seed": 2004,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 66.0,
+      "planning_time_ms": 17.244,
+      "execution_time_ms": 19.749,
+      "nodes_explored": 887,
+      "collision_count": 0,
+      "execution_steps": 661
+    },
+    {
+      "scenario_id": 5,
+      "seed": 2004,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 66.1,
+      "planning_time_ms": 13.103,
+      "execution_time_ms": 21.338,
+      "nodes_explored": 634,
+      "collision_count": 0,
+      "execution_steps": 662
+    },
+    {
+      "scenario_id": 5,
+      "seed": 2004,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 66.0,
+      "planning_time_ms": 34.027,
+      "execution_time_ms": 18.578,
+      "nodes_explored": 1804,
+      "collision_count": 0,
+      "execution_steps": 661
+    },
+    {
+      "scenario_id": 6,
+      "seed": 2005,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 10.811,
+      "execution_time_ms": 19.093,
+      "nodes_explored": 600,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 6,
+      "seed": 2005,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 6.72,
+      "execution_time_ms": 18.454,
+      "nodes_explored": 358,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 6,
+      "seed": 2005,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 29.781,
+      "execution_time_ms": 17.992,
+      "nodes_explored": 1825,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 7,
+      "seed": 2006,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 15.623,
+      "execution_time_ms": 19.544,
+      "nodes_explored": 770,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 7,
+      "seed": 2006,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 9.997,
+      "execution_time_ms": 18.905,
+      "nodes_explored": 548,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 7,
+      "seed": 2006,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 35.622,
+      "execution_time_ms": 19.058,
+      "nodes_explored": 1861,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 8,
+      "seed": 2007,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 8.159,
+      "execution_time_ms": 17.414,
+      "nodes_explored": 479,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 8,
+      "seed": 2007,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 6.466,
+      "execution_time_ms": 16.523,
+      "nodes_explored": 326,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 8,
+      "seed": 2007,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.1,
+      "planning_time_ms": 32.566,
+      "execution_time_ms": 17.191,
+      "nodes_explored": 1808,
+      "collision_count": 0,
+      "execution_steps": 622
+    },
+    {
+      "scenario_id": 9,
+      "seed": 2008,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.4,
+      "planning_time_ms": 16.46,
+      "execution_time_ms": 18.294,
+      "nodes_explored": 890,
+      "collision_count": 0,
+      "execution_steps": 655
+    },
+    {
+      "scenario_id": 9,
+      "seed": 2008,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.0,
+      "planning_time_ms": 13.261,
+      "execution_time_ms": 19.809,
+      "nodes_explored": 673,
+      "collision_count": 0,
+      "execution_steps": 651
+    },
+    {
+      "scenario_id": 9,
+      "seed": 2008,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.3,
+      "planning_time_ms": 33.676,
+      "execution_time_ms": 18.633,
+      "nodes_explored": 1824,
+      "collision_count": 0,
+      "execution_steps": 654
+    },
+    {
+      "scenario_id": 10,
+      "seed": 2009,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 8.527,
+      "execution_time_ms": 21.144,
+      "nodes_explored": 504,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 10,
+      "seed": 2009,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 6.171,
+      "execution_time_ms": 18.739,
+      "nodes_explored": 308,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 10,
+      "seed": 2009,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 31.638,
+      "execution_time_ms": 18.116,
+      "nodes_explored": 1820,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 11,
+      "seed": 2010,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.2,
+      "planning_time_ms": 7.782,
+      "execution_time_ms": 19.192,
+      "nodes_explored": 404,
+      "collision_count": 0,
+      "execution_steps": 613
+    },
+    {
+      "scenario_id": 11,
+      "seed": 2010,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.2,
+      "planning_time_ms": 4.527,
+      "execution_time_ms": 17.889,
+      "nodes_explored": 232,
+      "collision_count": 0,
+      "execution_steps": 613
+    },
+    {
+      "scenario_id": 11,
+      "seed": 2010,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.3,
+      "planning_time_ms": 31.036,
+      "execution_time_ms": 17.13,
+      "nodes_explored": 1798,
+      "collision_count": 0,
+      "execution_steps": 614
+    },
+    {
+      "scenario_id": 12,
+      "seed": 2011,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.8,
+      "planning_time_ms": 11.641,
+      "execution_time_ms": 18.884,
+      "nodes_explored": 630,
+      "collision_count": 0,
+      "execution_steps": 649
+    },
+    {
+      "scenario_id": 12,
+      "seed": 2011,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.8,
+      "planning_time_ms": 10.182,
+      "execution_time_ms": 19.482,
+      "nodes_explored": 447,
+      "collision_count": 0,
+      "execution_steps": 649
+    },
+    {
+      "scenario_id": 12,
+      "seed": 2011,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.7,
+      "planning_time_ms": 34.343,
+      "execution_time_ms": 18.157,
+      "nodes_explored": 1808,
+      "collision_count": 0,
+      "execution_steps": 648
+    },
+    {
+      "scenario_id": 13,
+      "seed": 2012,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 9.613,
+      "execution_time_ms": 18.434,
+      "nodes_explored": 573,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 13,
+      "seed": 2012,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 7.282,
+      "execution_time_ms": 17.523,
+      "nodes_explored": 357,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 13,
+      "seed": 2012,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 32.642,
+      "execution_time_ms": 17.937,
+      "nodes_explored": 1825,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 14,
+      "seed": 2013,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 14.296,
+      "execution_time_ms": 19.165,
+      "nodes_explored": 718,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 14,
+      "seed": 2013,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 9.037,
+      "execution_time_ms": 20.055,
+      "nodes_explored": 416,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 14,
+      "seed": 2013,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 32.358,
+      "execution_time_ms": 17.355,
+      "nodes_explored": 1825,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 15,
+      "seed": 2014,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.8,
+      "planning_time_ms": 13.18,
+      "execution_time_ms": 18.122,
+      "nodes_explored": 670,
+      "collision_count": 0,
+      "execution_steps": 619
+    },
+    {
+      "scenario_id": 15,
+      "seed": 2014,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 8.798,
+      "execution_time_ms": 17.933,
+      "nodes_explored": 462,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 15,
+      "seed": 2014,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.1,
+      "planning_time_ms": 34.147,
+      "execution_time_ms": 18.044,
+      "nodes_explored": 1856,
+      "collision_count": 0,
+      "execution_steps": 622
+    },
+    {
+      "scenario_id": 16,
+      "seed": 2015,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.8,
+      "planning_time_ms": 10.357,
+      "execution_time_ms": 16.925,
+      "nodes_explored": 494,
+      "collision_count": 0,
+      "execution_steps": 619
+    },
+    {
+      "scenario_id": 16,
+      "seed": 2015,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 6.282,
+      "execution_time_ms": 17.739,
+      "nodes_explored": 288,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 16,
+      "seed": 2015,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 34.138,
+      "execution_time_ms": 17.903,
+      "nodes_explored": 1854,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 17,
+      "seed": 2016,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.9,
+      "planning_time_ms": 15.848,
+      "execution_time_ms": 21.314,
+      "nodes_explored": 843,
+      "collision_count": 0,
+      "execution_steps": 650
+    },
+    {
+      "scenario_id": 17,
+      "seed": 2016,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.9,
+      "planning_time_ms": 11.236,
+      "execution_time_ms": 24.706,
+      "nodes_explored": 590,
+      "collision_count": 0,
+      "execution_steps": 650
+    },
+    {
+      "scenario_id": 17,
+      "seed": 2016,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 65.0,
+      "planning_time_ms": 33.944,
+      "execution_time_ms": 17.669,
+      "nodes_explored": 1850,
+      "collision_count": 0,
+      "execution_steps": 651
+    },
+    {
+      "scenario_id": 18,
+      "seed": 2017,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 12.489,
+      "execution_time_ms": 19.922,
+      "nodes_explored": 664,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 18,
+      "seed": 2017,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.4,
+      "planning_time_ms": 9.436,
+      "execution_time_ms": 17.912,
+      "nodes_explored": 424,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 18,
+      "seed": 2017,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 34.685,
+      "execution_time_ms": 19.273,
+      "nodes_explored": 1837,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 19,
+      "seed": 2018,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.3,
+      "planning_time_ms": 13.885,
+      "execution_time_ms": 20.676,
+      "nodes_explored": 757,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 19,
+      "seed": 2018,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 10.529,
+      "execution_time_ms": 19.266,
+      "nodes_explored": 486,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 19,
+      "seed": 2018,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 32.643,
+      "execution_time_ms": 19.312,
+      "nodes_explored": 1844,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 20,
+      "seed": 2019,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 14.099,
+      "execution_time_ms": 18.841,
+      "nodes_explored": 736,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 20,
+      "seed": 2019,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 9.588,
+      "execution_time_ms": 19.377,
+      "nodes_explored": 490,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 20,
+      "seed": 2019,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.7,
+      "planning_time_ms": 35.595,
+      "execution_time_ms": 18.765,
+      "nodes_explored": 1855,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 21,
+      "seed": 2020,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 11.688,
+      "execution_time_ms": 19.805,
+      "nodes_explored": 597,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 21,
+      "seed": 2020,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 6.111,
+      "execution_time_ms": 20.025,
+      "nodes_explored": 366,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 21,
+      "seed": 2020,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 33.0,
+      "execution_time_ms": 20.049,
+      "nodes_explored": 1830,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 22,
+      "seed": 2021,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.4,
+      "planning_time_ms": 15.245,
+      "execution_time_ms": 35.329,
+      "nodes_explored": 772,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 22,
+      "seed": 2021,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.3,
+      "planning_time_ms": 20.044,
+      "execution_time_ms": 25.595,
+      "nodes_explored": 532,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 22,
+      "seed": 2021,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.1,
+      "planning_time_ms": 33.953,
+      "execution_time_ms": 19.654,
+      "nodes_explored": 1835,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 23,
+      "seed": 2022,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 66.2,
+      "planning_time_ms": 17.248,
+      "execution_time_ms": 19.784,
+      "nodes_explored": 911,
+      "collision_count": 0,
+      "execution_steps": 663
+    },
+    {
+      "scenario_id": 23,
+      "seed": 2022,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 65.5,
+      "planning_time_ms": 11.46,
+      "execution_time_ms": 20.088,
+      "nodes_explored": 608,
+      "collision_count": 0,
+      "execution_steps": 656
+    },
+    {
+      "scenario_id": 23,
+      "seed": 2022,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 66.1,
+      "planning_time_ms": 34.352,
+      "execution_time_ms": 18.167,
+      "nodes_explored": 1798,
+      "collision_count": 0,
+      "execution_steps": 662
+    },
+    {
+      "scenario_id": 24,
+      "seed": 2023,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 14.578,
+      "execution_time_ms": 17.467,
+      "nodes_explored": 744,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 24,
+      "seed": 2023,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 10.35,
+      "execution_time_ms": 17.121,
+      "nodes_explored": 490,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 24,
+      "seed": 2023,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 32.695,
+      "execution_time_ms": 18.666,
+      "nodes_explored": 1843,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 25,
+      "seed": 2024,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 14.949,
+      "execution_time_ms": 18.149,
+      "nodes_explored": 778,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 25,
+      "seed": 2024,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 9.38,
+      "execution_time_ms": 19.436,
+      "nodes_explored": 498,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 25,
+      "seed": 2024,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.4,
+      "planning_time_ms": 31.323,
+      "execution_time_ms": 18.417,
+      "nodes_explored": 1841,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 26,
+      "seed": 2025,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.2,
+      "planning_time_ms": 19.249,
+      "execution_time_ms": 20.267,
+      "nodes_explored": 639,
+      "collision_count": 0,
+      "execution_steps": 613
+    },
+    {
+      "scenario_id": 26,
+      "seed": 2025,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.2,
+      "planning_time_ms": 7.703,
+      "execution_time_ms": 17.323,
+      "nodes_explored": 376,
+      "collision_count": 0,
+      "execution_steps": 613
+    },
+    {
+      "scenario_id": 26,
+      "seed": 2025,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 37.65,
+      "execution_time_ms": 17.278,
+      "nodes_explored": 1857,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 27,
+      "seed": 2026,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 14.188,
+      "execution_time_ms": 18.684,
+      "nodes_explored": 724,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 27,
+      "seed": 2026,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 8.797,
+      "execution_time_ms": 18.321,
+      "nodes_explored": 481,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 27,
+      "seed": 2026,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 33.774,
+      "execution_time_ms": 16.648,
+      "nodes_explored": 1848,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 28,
+      "seed": 2027,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.2,
+      "planning_time_ms": 13.691,
+      "execution_time_ms": 18.306,
+      "nodes_explored": 639,
+      "collision_count": 0,
+      "execution_steps": 613
+    },
+    {
+      "scenario_id": 28,
+      "seed": 2027,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.3,
+      "planning_time_ms": 11.374,
+      "execution_time_ms": 46.02,
+      "nodes_explored": 410,
+      "collision_count": 0,
+      "execution_steps": 614
+    },
+    {
+      "scenario_id": 28,
+      "seed": 2027,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 37.003,
+      "execution_time_ms": 17.914,
+      "nodes_explored": 1850,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 29,
+      "seed": 2028,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 12.431,
+      "execution_time_ms": 18.491,
+      "nodes_explored": 669,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 29,
+      "seed": 2028,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 8.068,
+      "execution_time_ms": 18.314,
+      "nodes_explored": 430,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 29,
+      "seed": 2028,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 33.883,
+      "execution_time_ms": 16.866,
+      "nodes_explored": 1841,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 30,
+      "seed": 2029,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 10.135,
+      "execution_time_ms": 20.101,
+      "nodes_explored": 582,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 30,
+      "seed": 2029,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 6.804,
+      "execution_time_ms": 19.813,
+      "nodes_explored": 345,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 30,
+      "seed": 2029,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 29.884,
+      "execution_time_ms": 18.407,
+      "nodes_explored": 1801,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 31,
+      "seed": 2030,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 14.375,
+      "execution_time_ms": 18.685,
+      "nodes_explored": 709,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 31,
+      "seed": 2030,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.3,
+      "planning_time_ms": 9.825,
+      "execution_time_ms": 18.036,
+      "nodes_explored": 514,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 31,
+      "seed": 2030,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.4,
+      "planning_time_ms": 32.672,
+      "execution_time_ms": 22.326,
+      "nodes_explored": 1861,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 32,
+      "seed": 2031,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 13.143,
+      "execution_time_ms": 19.663,
+      "nodes_explored": 673,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 32,
+      "seed": 2031,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 9.411,
+      "execution_time_ms": 23.32,
+      "nodes_explored": 435,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 32,
+      "seed": 2031,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 33.407,
+      "execution_time_ms": 18.806,
+      "nodes_explored": 1829,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 33,
+      "seed": 2032,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 11.373,
+      "execution_time_ms": 17.235,
+      "nodes_explored": 571,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 33,
+      "seed": 2032,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 6.905,
+      "execution_time_ms": 19.796,
+      "nodes_explored": 391,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 33,
+      "seed": 2032,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 32.861,
+      "execution_time_ms": 18.584,
+      "nodes_explored": 1809,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 34,
+      "seed": 2033,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.3,
+      "planning_time_ms": 11.376,
+      "execution_time_ms": 18.681,
+      "nodes_explored": 655,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 34,
+      "seed": 2033,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 10.031,
+      "execution_time_ms": 19.043,
+      "nodes_explored": 453,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 34,
+      "seed": 2033,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.4,
+      "planning_time_ms": 34.926,
+      "execution_time_ms": 20.029,
+      "nodes_explored": 1833,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 35,
+      "seed": 2034,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.3,
+      "planning_time_ms": 10.841,
+      "execution_time_ms": 16.599,
+      "nodes_explored": 432,
+      "collision_count": 0,
+      "execution_steps": 604
+    },
+    {
+      "scenario_id": 35,
+      "seed": 2034,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.3,
+      "planning_time_ms": 5.16,
+      "execution_time_ms": 17.082,
+      "nodes_explored": 245,
+      "collision_count": 0,
+      "execution_steps": 604
+    },
+    {
+      "scenario_id": 35,
+      "seed": 2034,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.3,
+      "planning_time_ms": 30.965,
+      "execution_time_ms": 16.354,
+      "nodes_explored": 1801,
+      "collision_count": 0,
+      "execution_steps": 604
+    },
+    {
+      "scenario_id": 36,
+      "seed": 2035,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.1,
+      "planning_time_ms": 10.615,
+      "execution_time_ms": 18.856,
+      "nodes_explored": 561,
+      "collision_count": 0,
+      "execution_steps": 622
+    },
+    {
+      "scenario_id": 36,
+      "seed": 2035,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 6.113,
+      "execution_time_ms": 19.139,
+      "nodes_explored": 365,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 36,
+      "seed": 2035,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.1,
+      "planning_time_ms": 32.528,
+      "execution_time_ms": 16.663,
+      "nodes_explored": 1789,
+      "collision_count": 0,
+      "execution_steps": 622
+    },
+    {
+      "scenario_id": 37,
+      "seed": 2036,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.2,
+      "planning_time_ms": 16.722,
+      "execution_time_ms": 18.656,
+      "nodes_explored": 793,
+      "collision_count": 0,
+      "execution_steps": 643
+    },
+    {
+      "scenario_id": 37,
+      "seed": 2036,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.2,
+      "planning_time_ms": 11.15,
+      "execution_time_ms": 20.497,
+      "nodes_explored": 585,
+      "collision_count": 0,
+      "execution_steps": 643
+    },
+    {
+      "scenario_id": 37,
+      "seed": 2036,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.2,
+      "planning_time_ms": 32.896,
+      "execution_time_ms": 19.85,
+      "nodes_explored": 1839,
+      "collision_count": 0,
+      "execution_steps": 643
+    },
+    {
+      "scenario_id": 38,
+      "seed": 2037,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 11.585,
+      "execution_time_ms": 21.402,
+      "nodes_explored": 618,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 38,
+      "seed": 2037,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 7.617,
+      "execution_time_ms": 20.251,
+      "nodes_explored": 383,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 38,
+      "seed": 2037,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 32.677,
+      "execution_time_ms": 18.815,
+      "nodes_explored": 1834,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 39,
+      "seed": 2038,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.6,
+      "planning_time_ms": 13.638,
+      "execution_time_ms": 19.003,
+      "nodes_explored": 658,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 39,
+      "seed": 2038,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.7,
+      "planning_time_ms": 8.241,
+      "execution_time_ms": 20.04,
+      "nodes_explored": 426,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 39,
+      "seed": 2038,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 34.157,
+      "execution_time_ms": 18.996,
+      "nodes_explored": 1814,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 40,
+      "seed": 2039,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 11.944,
+      "execution_time_ms": 18.082,
+      "nodes_explored": 607,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 40,
+      "seed": 2039,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 9.507,
+      "execution_time_ms": 18.058,
+      "nodes_explored": 388,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 40,
+      "seed": 2039,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 32.193,
+      "execution_time_ms": 19.347,
+      "nodes_explored": 1857,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 41,
+      "seed": 2040,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 65.7,
+      "planning_time_ms": 20.006,
+      "execution_time_ms": 18.896,
+      "nodes_explored": 1006,
+      "collision_count": 0,
+      "execution_steps": 658
+    },
+    {
+      "scenario_id": 41,
+      "seed": 2040,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 66.0,
+      "planning_time_ms": 14.27,
+      "execution_time_ms": 21.132,
+      "nodes_explored": 733,
+      "collision_count": 0,
+      "execution_steps": 661
+    },
+    {
+      "scenario_id": 41,
+      "seed": 2040,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 67.113,
+      "path_length": 65.8,
+      "planning_time_ms": 31.448,
+      "execution_time_ms": 21.05,
+      "nodes_explored": 1804,
+      "collision_count": 0,
+      "execution_steps": 659
+    },
+    {
+      "scenario_id": 42,
+      "seed": 2041,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.2,
+      "planning_time_ms": 18.302,
+      "execution_time_ms": 19.909,
+      "nodes_explored": 894,
+      "collision_count": 0,
+      "execution_steps": 643
+    },
+    {
+      "scenario_id": 42,
+      "seed": 2041,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.2,
+      "planning_time_ms": 12.522,
+      "execution_time_ms": 18.466,
+      "nodes_explored": 628,
+      "collision_count": 0,
+      "execution_steps": 643
+    },
+    {
+      "scenario_id": 42,
+      "seed": 2041,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.1,
+      "planning_time_ms": 33.874,
+      "execution_time_ms": 19.36,
+      "nodes_explored": 1856,
+      "collision_count": 0,
+      "execution_steps": 642
+    },
+    {
+      "scenario_id": 43,
+      "seed": 2042,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 15.546,
+      "execution_time_ms": 19.604,
+      "nodes_explored": 818,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 43,
+      "seed": 2042,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 11.597,
+      "execution_time_ms": 19.454,
+      "nodes_explored": 555,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 43,
+      "seed": 2042,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 34.663,
+      "execution_time_ms": 20.404,
+      "nodes_explored": 1880,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 44,
+      "seed": 2043,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.8,
+      "planning_time_ms": 15.132,
+      "execution_time_ms": 19.269,
+      "nodes_explored": 661,
+      "collision_count": 0,
+      "execution_steps": 619
+    },
+    {
+      "scenario_id": 44,
+      "seed": 2043,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.8,
+      "planning_time_ms": 8.903,
+      "execution_time_ms": 19.305,
+      "nodes_explored": 424,
+      "collision_count": 0,
+      "execution_steps": 619
+    },
+    {
+      "scenario_id": 44,
+      "seed": 2043,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.7,
+      "planning_time_ms": 32.551,
+      "execution_time_ms": 18.948,
+      "nodes_explored": 1816,
+      "collision_count": 0,
+      "execution_steps": 618
+    },
+    {
+      "scenario_id": 45,
+      "seed": 2044,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 13.25,
+      "execution_time_ms": 19.549,
+      "nodes_explored": 722,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 45,
+      "seed": 2044,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 10.614,
+      "execution_time_ms": 18.035,
+      "nodes_explored": 508,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 45,
+      "seed": 2044,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 34.854,
+      "execution_time_ms": 18.854,
+      "nodes_explored": 1815,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 46,
+      "seed": 2045,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.7,
+      "planning_time_ms": 10.676,
+      "execution_time_ms": 21.432,
+      "nodes_explored": 534,
+      "collision_count": 0,
+      "execution_steps": 608
+    },
+    {
+      "scenario_id": 46,
+      "seed": 2045,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.7,
+      "planning_time_ms": 6.118,
+      "execution_time_ms": 18.093,
+      "nodes_explored": 321,
+      "collision_count": 0,
+      "execution_steps": 608
+    },
+    {
+      "scenario_id": 46,
+      "seed": 2045,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.5,
+      "planning_time_ms": 32.847,
+      "execution_time_ms": 19.446,
+      "nodes_explored": 1844,
+      "collision_count": 0,
+      "execution_steps": 606
+    },
+    {
+      "scenario_id": 47,
+      "seed": 2046,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.7,
+      "planning_time_ms": 11.376,
+      "execution_time_ms": 18.914,
+      "nodes_explored": 530,
+      "collision_count": 0,
+      "execution_steps": 618
+    },
+    {
+      "scenario_id": 47,
+      "seed": 2046,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.7,
+      "planning_time_ms": 8.514,
+      "execution_time_ms": 18.116,
+      "nodes_explored": 353,
+      "collision_count": 0,
+      "execution_steps": 618
+    },
+    {
+      "scenario_id": 47,
+      "seed": 2046,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 32.885,
+      "execution_time_ms": 16.822,
+      "nodes_explored": 1783,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 48,
+      "seed": 2047,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.8,
+      "planning_time_ms": 11.146,
+      "execution_time_ms": 18.967,
+      "nodes_explored": 621,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 48,
+      "seed": 2047,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.7,
+      "planning_time_ms": 7.672,
+      "execution_time_ms": 19.337,
+      "nodes_explored": 384,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 48,
+      "seed": 2047,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.8,
+      "planning_time_ms": 37.229,
+      "execution_time_ms": 18.141,
+      "nodes_explored": 1815,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 49,
+      "seed": 2048,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 12.827,
+      "execution_time_ms": 17.791,
+      "nodes_explored": 661,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 49,
+      "seed": 2048,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 8.925,
+      "execution_time_ms": 18.416,
+      "nodes_explored": 423,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 49,
+      "seed": 2048,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.8,
+      "planning_time_ms": 33.61,
+      "execution_time_ms": 19.815,
+      "nodes_explored": 1843,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 50,
+      "seed": 2049,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.0,
+      "planning_time_ms": 8.553,
+      "execution_time_ms": 18.397,
+      "nodes_explored": 457,
+      "collision_count": 0,
+      "execution_steps": 611
+    },
+    {
+      "scenario_id": 50,
+      "seed": 2049,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.0,
+      "planning_time_ms": 5.793,
+      "execution_time_ms": 16.66,
+      "nodes_explored": 301,
+      "collision_count": 0,
+      "execution_steps": 611
+    },
+    {
+      "scenario_id": 50,
+      "seed": 2049,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.0,
+      "planning_time_ms": 32.187,
+      "execution_time_ms": 18.434,
+      "nodes_explored": 1828,
+      "collision_count": 0,
+      "execution_steps": 611
+    },
+    {
+      "scenario_id": 51,
+      "seed": 2050,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.1,
+      "planning_time_ms": 15.923,
+      "execution_time_ms": 18.821,
+      "nodes_explored": 808,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 51,
+      "seed": 2050,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.2,
+      "planning_time_ms": 10.073,
+      "execution_time_ms": 20.014,
+      "nodes_explored": 551,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 51,
+      "seed": 2050,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.2,
+      "planning_time_ms": 33.305,
+      "execution_time_ms": 18.148,
+      "nodes_explored": 1804,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 52,
+      "seed": 2051,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 12.465,
+      "execution_time_ms": 18.968,
+      "nodes_explored": 642,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 52,
+      "seed": 2051,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 9.554,
+      "execution_time_ms": 20.967,
+      "nodes_explored": 415,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 52,
+      "seed": 2051,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 37.002,
+      "execution_time_ms": 19.782,
+      "nodes_explored": 1844,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 53,
+      "seed": 2052,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 13.401,
+      "execution_time_ms": 21.404,
+      "nodes_explored": 716,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 53,
+      "seed": 2052,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.8,
+      "planning_time_ms": 8.586,
+      "execution_time_ms": 18.36,
+      "nodes_explored": 449,
+      "collision_count": 0,
+      "execution_steps": 619
+    },
+    {
+      "scenario_id": 53,
+      "seed": 2052,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.7,
+      "planning_time_ms": 32.53,
+      "execution_time_ms": 18.444,
+      "nodes_explored": 1861,
+      "collision_count": 0,
+      "execution_steps": 618
+    },
+    {
+      "scenario_id": 54,
+      "seed": 2053,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 69.113,
+      "path_length": 67.8,
+      "planning_time_ms": 20.713,
+      "execution_time_ms": 17.734,
+      "nodes_explored": 1056,
+      "collision_count": 0,
+      "execution_steps": 679
+    },
+    {
+      "scenario_id": 54,
+      "seed": 2053,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 69.113,
+      "path_length": 67.8,
+      "planning_time_ms": 16.488,
+      "execution_time_ms": 18.147,
+      "nodes_explored": 856,
+      "collision_count": 0,
+      "execution_steps": 679
+    },
+    {
+      "scenario_id": 54,
+      "seed": 2053,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 69.113,
+      "path_length": 67.9,
+      "planning_time_ms": 34.027,
+      "execution_time_ms": 19.856,
+      "nodes_explored": 1814,
+      "collision_count": 0,
+      "execution_steps": 680
+    },
+    {
+      "scenario_id": 55,
+      "seed": 2054,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 12.42,
+      "execution_time_ms": 19.019,
+      "nodes_explored": 667,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 55,
+      "seed": 2054,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 7.865,
+      "execution_time_ms": 19.323,
+      "nodes_explored": 428,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 55,
+      "seed": 2054,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 32.807,
+      "execution_time_ms": 17.705,
+      "nodes_explored": 1836,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 56,
+      "seed": 2055,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.7,
+      "planning_time_ms": 14.676,
+      "execution_time_ms": 18.345,
+      "nodes_explored": 728,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 56,
+      "seed": 2055,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 8.923,
+      "execution_time_ms": 19.135,
+      "nodes_explored": 454,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 56,
+      "seed": 2055,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 31.256,
+      "execution_time_ms": 18.06,
+      "nodes_explored": 1817,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 57,
+      "seed": 2056,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 15.458,
+      "execution_time_ms": 18.075,
+      "nodes_explored": 757,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 57,
+      "seed": 2056,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 9.176,
+      "execution_time_ms": 19.139,
+      "nodes_explored": 492,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 57,
+      "seed": 2056,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 32.262,
+      "execution_time_ms": 19.823,
+      "nodes_explored": 1849,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 58,
+      "seed": 2057,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 14.841,
+      "execution_time_ms": 19.917,
+      "nodes_explored": 757,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 58,
+      "seed": 2057,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 9.59,
+      "execution_time_ms": 18.713,
+      "nodes_explored": 510,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 58,
+      "seed": 2057,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 33.539,
+      "execution_time_ms": 18.643,
+      "nodes_explored": 1838,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 59,
+      "seed": 2058,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.6,
+      "planning_time_ms": 15.717,
+      "execution_time_ms": 20.703,
+      "nodes_explored": 815,
+      "collision_count": 0,
+      "execution_steps": 647
+    },
+    {
+      "scenario_id": 59,
+      "seed": 2058,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.6,
+      "planning_time_ms": 11.574,
+      "execution_time_ms": 19.106,
+      "nodes_explored": 602,
+      "collision_count": 0,
+      "execution_steps": 647
+    },
+    {
+      "scenario_id": 59,
+      "seed": 2058,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.7,
+      "planning_time_ms": 33.887,
+      "execution_time_ms": 27.736,
+      "nodes_explored": 1854,
+      "collision_count": 0,
+      "execution_steps": 648
+    },
+    {
+      "scenario_id": 60,
+      "seed": 2059,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 15.581,
+      "execution_time_ms": 16.854,
+      "nodes_explored": 546,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 60,
+      "seed": 2059,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 5.803,
+      "execution_time_ms": 18.451,
+      "nodes_explored": 310,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 60,
+      "seed": 2059,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 30.283,
+      "execution_time_ms": 18.64,
+      "nodes_explored": 1842,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 61,
+      "seed": 2060,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.8,
+      "planning_time_ms": 14.437,
+      "execution_time_ms": 20.312,
+      "nodes_explored": 772,
+      "collision_count": 0,
+      "execution_steps": 639
+    },
+    {
+      "scenario_id": 61,
+      "seed": 2060,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 9.633,
+      "execution_time_ms": 19.754,
+      "nodes_explored": 511,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 61,
+      "seed": 2060,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 35.201,
+      "execution_time_ms": 19.093,
+      "nodes_explored": 1838,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 62,
+      "seed": 2061,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 12.477,
+      "execution_time_ms": 21.942,
+      "nodes_explored": 621,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 62,
+      "seed": 2061,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 7.725,
+      "execution_time_ms": 18.527,
+      "nodes_explored": 398,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 62,
+      "seed": 2061,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.4,
+      "planning_time_ms": 34.633,
+      "execution_time_ms": 16.942,
+      "nodes_explored": 1850,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 63,
+      "seed": 2062,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 12.789,
+      "execution_time_ms": 18.455,
+      "nodes_explored": 647,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 63,
+      "seed": 2062,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 7.386,
+      "execution_time_ms": 17.171,
+      "nodes_explored": 394,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 63,
+      "seed": 2062,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 31.625,
+      "execution_time_ms": 19.572,
+      "nodes_explored": 1771,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 64,
+      "seed": 2063,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.598,
+      "path_length": 64.6,
+      "planning_time_ms": 15.458,
+      "execution_time_ms": 19.918,
+      "nodes_explored": 859,
+      "collision_count": 0,
+      "execution_steps": 647
+    },
+    {
+      "scenario_id": 64,
+      "seed": 2063,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.598,
+      "path_length": 64.6,
+      "planning_time_ms": 14.556,
+      "execution_time_ms": 19.305,
+      "nodes_explored": 590,
+      "collision_count": 0,
+      "execution_steps": 647
+    },
+    {
+      "scenario_id": 64,
+      "seed": 2063,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.598,
+      "path_length": 64.5,
+      "planning_time_ms": 32.759,
+      "execution_time_ms": 18.019,
+      "nodes_explored": 1833,
+      "collision_count": 0,
+      "execution_steps": 646
+    },
+    {
+      "scenario_id": 65,
+      "seed": 2064,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 63.9,
+      "planning_time_ms": 16.706,
+      "execution_time_ms": 20.698,
+      "nodes_explored": 823,
+      "collision_count": 0,
+      "execution_steps": 640
+    },
+    {
+      "scenario_id": 65,
+      "seed": 2064,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 63.9,
+      "planning_time_ms": 10.994,
+      "execution_time_ms": 20.525,
+      "nodes_explored": 563,
+      "collision_count": 0,
+      "execution_steps": 640
+    },
+    {
+      "scenario_id": 65,
+      "seed": 2064,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.1,
+      "planning_time_ms": 31.338,
+      "execution_time_ms": 18.325,
+      "nodes_explored": 1845,
+      "collision_count": 0,
+      "execution_steps": 642
+    },
+    {
+      "scenario_id": 66,
+      "seed": 2065,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.7,
+      "planning_time_ms": 13.689,
+      "execution_time_ms": 20.005,
+      "nodes_explored": 660,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 66,
+      "seed": 2065,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 10.636,
+      "execution_time_ms": 20.577,
+      "nodes_explored": 452,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 66,
+      "seed": 2065,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 33.85,
+      "execution_time_ms": 18.699,
+      "nodes_explored": 1840,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 67,
+      "seed": 2066,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 13.015,
+      "execution_time_ms": 22.248,
+      "nodes_explored": 714,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 67,
+      "seed": 2066,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 8.834,
+      "execution_time_ms": 20.362,
+      "nodes_explored": 399,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 67,
+      "seed": 2066,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 32.693,
+      "execution_time_ms": 19.928,
+      "nodes_explored": 1833,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 68,
+      "seed": 2067,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 13.337,
+      "execution_time_ms": 21.447,
+      "nodes_explored": 707,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 68,
+      "seed": 2067,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.9,
+      "planning_time_ms": 9.112,
+      "execution_time_ms": 20.12,
+      "nodes_explored": 470,
+      "collision_count": 0,
+      "execution_steps": 630
+    },
+    {
+      "scenario_id": 68,
+      "seed": 2067,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.8,
+      "planning_time_ms": 33.715,
+      "execution_time_ms": 18.908,
+      "nodes_explored": 1857,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 69,
+      "seed": 2068,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 12.31,
+      "execution_time_ms": 17.876,
+      "nodes_explored": 656,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 69,
+      "seed": 2068,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 8.988,
+      "execution_time_ms": 18.974,
+      "nodes_explored": 431,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 69,
+      "seed": 2068,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 31.385,
+      "execution_time_ms": 18.508,
+      "nodes_explored": 1828,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 70,
+      "seed": 2069,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.2,
+      "planning_time_ms": 14.017,
+      "execution_time_ms": 17.765,
+      "nodes_explored": 767,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 70,
+      "seed": 2069,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 10.738,
+      "execution_time_ms": 20.096,
+      "nodes_explored": 516,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 70,
+      "seed": 2069,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.3,
+      "planning_time_ms": 30.075,
+      "execution_time_ms": 20.004,
+      "nodes_explored": 1787,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 71,
+      "seed": 2070,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 13.645,
+      "execution_time_ms": 17.578,
+      "nodes_explored": 650,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 71,
+      "seed": 2070,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 8.206,
+      "execution_time_ms": 17.582,
+      "nodes_explored": 431,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 71,
+      "seed": 2070,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 32.798,
+      "execution_time_ms": 18.562,
+      "nodes_explored": 1836,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 72,
+      "seed": 2071,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 10.525,
+      "execution_time_ms": 19.399,
+      "nodes_explored": 593,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 72,
+      "seed": 2071,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 6.855,
+      "execution_time_ms": 19.387,
+      "nodes_explored": 371,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 72,
+      "seed": 2071,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.8,
+      "planning_time_ms": 31.605,
+      "execution_time_ms": 16.636,
+      "nodes_explored": 1845,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 73,
+      "seed": 2072,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.4,
+      "planning_time_ms": 8.183,
+      "execution_time_ms": 18.582,
+      "nodes_explored": 468,
+      "collision_count": 0,
+      "execution_steps": 605
+    },
+    {
+      "scenario_id": 73,
+      "seed": 2072,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.4,
+      "planning_time_ms": 5.639,
+      "execution_time_ms": 17.454,
+      "nodes_explored": 280,
+      "collision_count": 0,
+      "execution_steps": 605
+    },
+    {
+      "scenario_id": 73,
+      "seed": 2072,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.255,
+      "path_length": 60.3,
+      "planning_time_ms": 34.35,
+      "execution_time_ms": 17.66,
+      "nodes_explored": 1865,
+      "collision_count": 0,
+      "execution_steps": 604
+    },
+    {
+      "scenario_id": 74,
+      "seed": 2073,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 13.892,
+      "execution_time_ms": 19.554,
+      "nodes_explored": 697,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 74,
+      "seed": 2073,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 8.268,
+      "execution_time_ms": 20.84,
+      "nodes_explored": 403,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 74,
+      "seed": 2073,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 32.252,
+      "execution_time_ms": 18.954,
+      "nodes_explored": 1817,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 75,
+      "seed": 2074,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.1,
+      "planning_time_ms": 16.582,
+      "execution_time_ms": 20.176,
+      "nodes_explored": 829,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 75,
+      "seed": 2074,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.3,
+      "planning_time_ms": 10.23,
+      "execution_time_ms": 19.725,
+      "nodes_explored": 584,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 75,
+      "seed": 2074,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.2,
+      "planning_time_ms": 34.325,
+      "execution_time_ms": 18.065,
+      "nodes_explored": 1830,
+      "collision_count": 0,
+      "execution_steps": 633
+    },
+    {
+      "scenario_id": 76,
+      "seed": 2075,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.2,
+      "planning_time_ms": 9.895,
+      "execution_time_ms": 18.567,
+      "nodes_explored": 565,
+      "collision_count": 0,
+      "execution_steps": 623
+    },
+    {
+      "scenario_id": 76,
+      "seed": 2075,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 7.58,
+      "execution_time_ms": 20.599,
+      "nodes_explored": 397,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 76,
+      "seed": 2075,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.2,
+      "planning_time_ms": 61.489,
+      "execution_time_ms": 23.695,
+      "nodes_explored": 1802,
+      "collision_count": 0,
+      "execution_steps": 623
+    },
+    {
+      "scenario_id": 77,
+      "seed": 2076,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.5,
+      "planning_time_ms": 16.209,
+      "execution_time_ms": 19.694,
+      "nodes_explored": 850,
+      "collision_count": 0,
+      "execution_steps": 646
+    },
+    {
+      "scenario_id": 77,
+      "seed": 2076,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.3,
+      "planning_time_ms": 10.065,
+      "execution_time_ms": 19.092,
+      "nodes_explored": 562,
+      "collision_count": 0,
+      "execution_steps": 644
+    },
+    {
+      "scenario_id": 77,
+      "seed": 2076,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.2,
+      "planning_time_ms": 31.636,
+      "execution_time_ms": 17.803,
+      "nodes_explored": 1787,
+      "collision_count": 0,
+      "execution_steps": 643
+    },
+    {
+      "scenario_id": 78,
+      "seed": 2077,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.8,
+      "planning_time_ms": 11.613,
+      "execution_time_ms": 16.733,
+      "nodes_explored": 539,
+      "collision_count": 0,
+      "execution_steps": 609
+    },
+    {
+      "scenario_id": 78,
+      "seed": 2077,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.8,
+      "planning_time_ms": 6.857,
+      "execution_time_ms": 19.966,
+      "nodes_explored": 329,
+      "collision_count": 0,
+      "execution_steps": 609
+    },
+    {
+      "scenario_id": 78,
+      "seed": 2077,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.0,
+      "planning_time_ms": 35.451,
+      "execution_time_ms": 18.026,
+      "nodes_explored": 1821,
+      "collision_count": 0,
+      "execution_steps": 611
+    },
+    {
+      "scenario_id": 79,
+      "seed": 2078,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 14.725,
+      "execution_time_ms": 19.588,
+      "nodes_explored": 818,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 79,
+      "seed": 2078,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 12.739,
+      "execution_time_ms": 17.305,
+      "nodes_explored": 590,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 79,
+      "seed": 2078,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 31.735,
+      "execution_time_ms": 20.93,
+      "nodes_explored": 1812,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 80,
+      "seed": 2079,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.7,
+      "planning_time_ms": 16.108,
+      "execution_time_ms": 19.95,
+      "nodes_explored": 923,
+      "collision_count": 0,
+      "execution_steps": 648
+    },
+    {
+      "scenario_id": 80,
+      "seed": 2079,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.8,
+      "planning_time_ms": 13.272,
+      "execution_time_ms": 20.796,
+      "nodes_explored": 671,
+      "collision_count": 0,
+      "execution_steps": 649
+    },
+    {
+      "scenario_id": 80,
+      "seed": 2079,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 64.7,
+      "planning_time_ms": 33.642,
+      "execution_time_ms": 19.339,
+      "nodes_explored": 1845,
+      "collision_count": 0,
+      "execution_steps": 648
+    },
+    {
+      "scenario_id": 81,
+      "seed": 2080,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.9,
+      "planning_time_ms": 8.71,
+      "execution_time_ms": 18.099,
+      "nodes_explored": 467,
+      "collision_count": 0,
+      "execution_steps": 610
+    },
+    {
+      "scenario_id": 81,
+      "seed": 2080,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.9,
+      "planning_time_ms": 6.182,
+      "execution_time_ms": 17.965,
+      "nodes_explored": 307,
+      "collision_count": 0,
+      "execution_steps": 610
+    },
+    {
+      "scenario_id": 81,
+      "seed": 2080,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 60.9,
+      "planning_time_ms": 33.049,
+      "execution_time_ms": 20.831,
+      "nodes_explored": 1820,
+      "collision_count": 0,
+      "execution_steps": 610
+    },
+    {
+      "scenario_id": 82,
+      "seed": 2081,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 12.914,
+      "execution_time_ms": 24.163,
+      "nodes_explored": 613,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 82,
+      "seed": 2081,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 10.077,
+      "execution_time_ms": 22.432,
+      "nodes_explored": 441,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 82,
+      "seed": 2081,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 37.134,
+      "execution_time_ms": 20.552,
+      "nodes_explored": 1811,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 83,
+      "seed": 2082,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 16.156,
+      "execution_time_ms": 23.964,
+      "nodes_explored": 789,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 83,
+      "seed": 2082,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 11.105,
+      "execution_time_ms": 25.612,
+      "nodes_explored": 572,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 83,
+      "seed": 2082,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.8,
+      "planning_time_ms": 35.245,
+      "execution_time_ms": 21.02,
+      "nodes_explored": 1820,
+      "collision_count": 0,
+      "execution_steps": 639
+    },
+    {
+      "scenario_id": 84,
+      "seed": 2083,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.8,
+      "planning_time_ms": 17.352,
+      "execution_time_ms": 23.827,
+      "nodes_explored": 716,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 84,
+      "seed": 2083,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 62.7,
+      "planning_time_ms": 11.207,
+      "execution_time_ms": 21.575,
+      "nodes_explored": 456,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 84,
+      "seed": 2083,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 73.445,
+      "execution_time_ms": 24.977,
+      "nodes_explored": 1830,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 85,
+      "seed": 2084,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.0,
+      "planning_time_ms": 9.076,
+      "execution_time_ms": 17.501,
+      "nodes_explored": 505,
+      "collision_count": 0,
+      "execution_steps": 611
+    },
+    {
+      "scenario_id": 85,
+      "seed": 2084,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.1,
+      "planning_time_ms": 6.364,
+      "execution_time_ms": 18.711,
+      "nodes_explored": 325,
+      "collision_count": 0,
+      "execution_steps": 612
+    },
+    {
+      "scenario_id": 85,
+      "seed": 2084,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 61.841,
+      "path_length": 61.0,
+      "planning_time_ms": 31.2,
+      "execution_time_ms": 18.253,
+      "nodes_explored": 1824,
+      "collision_count": 0,
+      "execution_steps": 611
+    },
+    {
+      "scenario_id": 86,
+      "seed": 2085,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 65.0,
+      "planning_time_ms": 18.113,
+      "execution_time_ms": 22.164,
+      "nodes_explored": 656,
+      "collision_count": 0,
+      "execution_steps": 651
+    },
+    {
+      "scenario_id": 86,
+      "seed": 2085,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 65.2,
+      "planning_time_ms": 8.43,
+      "execution_time_ms": 18.87,
+      "nodes_explored": 427,
+      "collision_count": 0,
+      "execution_steps": 653
+    },
+    {
+      "scenario_id": 86,
+      "seed": 2085,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.941,
+      "path_length": 65.0,
+      "planning_time_ms": 30.721,
+      "execution_time_ms": 18.012,
+      "nodes_explored": 1847,
+      "collision_count": 0,
+      "execution_steps": 651
+    },
+    {
+      "scenario_id": 87,
+      "seed": 2086,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.3,
+      "planning_time_ms": 16.477,
+      "execution_time_ms": 19.977,
+      "nodes_explored": 880,
+      "collision_count": 0,
+      "execution_steps": 644
+    },
+    {
+      "scenario_id": 87,
+      "seed": 2086,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.4,
+      "planning_time_ms": 14.22,
+      "execution_time_ms": 19.7,
+      "nodes_explored": 644,
+      "collision_count": 0,
+      "execution_steps": 645
+    },
+    {
+      "scenario_id": 87,
+      "seed": 2086,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 65.355,
+      "path_length": 64.3,
+      "planning_time_ms": 32.569,
+      "execution_time_ms": 17.037,
+      "nodes_explored": 1821,
+      "collision_count": 0,
+      "execution_steps": 644
+    },
+    {
+      "scenario_id": 88,
+      "seed": 2087,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 14.524,
+      "execution_time_ms": 17.952,
+      "nodes_explored": 663,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 88,
+      "seed": 2087,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.8,
+      "planning_time_ms": 8.081,
+      "execution_time_ms": 19.325,
+      "nodes_explored": 432,
+      "collision_count": 0,
+      "execution_steps": 619
+    },
+    {
+      "scenario_id": 88,
+      "seed": 2087,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 31.836,
+      "execution_time_ms": 17.224,
+      "nodes_explored": 1818,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 89,
+      "seed": 2088,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 12.961,
+      "execution_time_ms": 18.383,
+      "nodes_explored": 637,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 89,
+      "seed": 2088,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 8.222,
+      "execution_time_ms": 18.881,
+      "nodes_explored": 432,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 89,
+      "seed": 2088,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.5,
+      "planning_time_ms": 31.217,
+      "execution_time_ms": 20.973,
+      "nodes_explored": 1794,
+      "collision_count": 0,
+      "execution_steps": 626
+    },
+    {
+      "scenario_id": 90,
+      "seed": 2089,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.8,
+      "planning_time_ms": 16.385,
+      "execution_time_ms": 18.628,
+      "nodes_explored": 610,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 90,
+      "seed": 2089,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.7,
+      "planning_time_ms": 10.717,
+      "execution_time_ms": 23.166,
+      "nodes_explored": 420,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 90,
+      "seed": 2089,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 36.907,
+      "execution_time_ms": 20.407,
+      "nodes_explored": 1813,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 91,
+      "seed": 2090,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.3,
+      "planning_time_ms": 12.397,
+      "execution_time_ms": 25.398,
+      "nodes_explored": 581,
+      "collision_count": 0,
+      "execution_steps": 614
+    },
+    {
+      "scenario_id": 91,
+      "seed": 2090,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.4,
+      "planning_time_ms": 7.459,
+      "execution_time_ms": 19.659,
+      "nodes_explored": 380,
+      "collision_count": 0,
+      "execution_steps": 615
+    },
+    {
+      "scenario_id": 91,
+      "seed": 2090,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 62.426,
+      "path_length": 61.5,
+      "planning_time_ms": 39.024,
+      "execution_time_ms": 16.924,
+      "nodes_explored": 1875,
+      "collision_count": 0,
+      "execution_steps": 616
+    },
+    {
+      "scenario_id": 92,
+      "seed": 2091,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.7,
+      "planning_time_ms": 15.524,
+      "execution_time_ms": 19.082,
+      "nodes_explored": 664,
+      "collision_count": 0,
+      "execution_steps": 628
+    },
+    {
+      "scenario_id": 92,
+      "seed": 2091,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.2,
+      "planning_time_ms": 11.7,
+      "execution_time_ms": 22.721,
+      "nodes_explored": 463,
+      "collision_count": 0,
+      "execution_steps": 623
+    },
+    {
+      "scenario_id": 92,
+      "seed": 2091,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.8,
+      "planning_time_ms": 39.273,
+      "execution_time_ms": 23.62,
+      "nodes_explored": 1838,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 93,
+      "seed": 2092,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.3,
+      "planning_time_ms": 20.962,
+      "execution_time_ms": 26.087,
+      "nodes_explored": 932,
+      "collision_count": 0,
+      "execution_steps": 654
+    },
+    {
+      "scenario_id": 93,
+      "seed": 2092,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.5,
+      "planning_time_ms": 13.728,
+      "execution_time_ms": 23.308,
+      "nodes_explored": 703,
+      "collision_count": 0,
+      "execution_steps": 656
+    },
+    {
+      "scenario_id": 93,
+      "seed": 2092,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 66.527,
+      "path_length": 65.3,
+      "planning_time_ms": 30.278,
+      "execution_time_ms": 17.348,
+      "nodes_explored": 1832,
+      "collision_count": 0,
+      "execution_steps": 654
+    },
+    {
+      "scenario_id": 94,
+      "seed": 2093,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 10.722,
+      "execution_time_ms": 22.514,
+      "nodes_explored": 626,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 94,
+      "seed": 2093,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 62.0,
+      "planning_time_ms": 7.599,
+      "execution_time_ms": 17.138,
+      "nodes_explored": 391,
+      "collision_count": 0,
+      "execution_steps": 621
+    },
+    {
+      "scenario_id": 94,
+      "seed": 2093,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.012,
+      "path_length": 61.9,
+      "planning_time_ms": 34.527,
+      "execution_time_ms": 19.448,
+      "nodes_explored": 1816,
+      "collision_count": 0,
+      "execution_steps": 620
+    },
+    {
+      "scenario_id": 95,
+      "seed": 2094,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.4,
+      "planning_time_ms": 11.657,
+      "execution_time_ms": 19.519,
+      "nodes_explored": 654,
+      "collision_count": 0,
+      "execution_steps": 625
+    },
+    {
+      "scenario_id": 95,
+      "seed": 2094,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.2,
+      "planning_time_ms": 10.204,
+      "execution_time_ms": 20.241,
+      "nodes_explored": 436,
+      "collision_count": 0,
+      "execution_steps": 623
+    },
+    {
+      "scenario_id": 95,
+      "seed": 2094,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.3,
+      "planning_time_ms": 36.337,
+      "execution_time_ms": 20.168,
+      "nodes_explored": 1846,
+      "collision_count": 0,
+      "execution_steps": 624
+    },
+    {
+      "scenario_id": 96,
+      "seed": 2095,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 16.313,
+      "execution_time_ms": 21.335,
+      "nodes_explored": 724,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 96,
+      "seed": 2095,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.4,
+      "planning_time_ms": 47.977,
+      "execution_time_ms": 18.757,
+      "nodes_explored": 530,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 96,
+      "seed": 2095,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.7,
+      "planning_time_ms": 40.017,
+      "execution_time_ms": 19.861,
+      "nodes_explored": 1808,
+      "collision_count": 0,
+      "execution_steps": 638
+    },
+    {
+      "scenario_id": 97,
+      "seed": 2096,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 10.476,
+      "execution_time_ms": 20.043,
+      "nodes_explored": 522,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 97,
+      "seed": 2096,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.6,
+      "planning_time_ms": 6.431,
+      "execution_time_ms": 18.762,
+      "nodes_explored": 302,
+      "collision_count": 0,
+      "execution_steps": 627
+    },
+    {
+      "scenario_id": 97,
+      "seed": 2096,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 63.598,
+      "path_length": 62.8,
+      "planning_time_ms": 32.364,
+      "execution_time_ms": 15.666,
+      "nodes_explored": 1821,
+      "collision_count": 0,
+      "execution_steps": 629
+    },
+    {
+      "scenario_id": 98,
+      "seed": 2097,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.4,
+      "planning_time_ms": 15.586,
+      "execution_time_ms": 18.258,
+      "nodes_explored": 773,
+      "collision_count": 0,
+      "execution_steps": 635
+    },
+    {
+      "scenario_id": 98,
+      "seed": 2097,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.3,
+      "planning_time_ms": 13.218,
+      "execution_time_ms": 21.559,
+      "nodes_explored": 573,
+      "collision_count": 0,
+      "execution_steps": 634
+    },
+    {
+      "scenario_id": 98,
+      "seed": 2097,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.5,
+      "planning_time_ms": 38.27,
+      "execution_time_ms": 22.37,
+      "nodes_explored": 1845,
+      "collision_count": 0,
+      "execution_steps": 636
+    },
+    {
+      "scenario_id": 99,
+      "seed": 2098,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 18.427,
+      "execution_time_ms": 17.596,
+      "nodes_explored": 757,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 99,
+      "seed": 2098,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.0,
+      "planning_time_ms": 12.058,
+      "execution_time_ms": 19.642,
+      "nodes_explored": 500,
+      "collision_count": 0,
+      "execution_steps": 631
+    },
+    {
+      "scenario_id": 99,
+      "seed": 2098,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.184,
+      "path_length": 63.1,
+      "planning_time_ms": 33.421,
+      "execution_time_ms": 19.907,
+      "nodes_explored": 1832,
+      "collision_count": 0,
+      "execution_steps": 632
+    },
+    {
+      "scenario_id": 100,
+      "seed": 2099,
+      "planner_name": "A* (Euclidean)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.9,
+      "planning_time_ms": 15.008,
+      "execution_time_ms": 19.764,
+      "nodes_explored": 796,
+      "collision_count": 0,
+      "execution_steps": 640
+    },
+    {
+      "scenario_id": 100,
+      "seed": 2099,
+      "planner_name": "A* (Octile)",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.6,
+      "planning_time_ms": 10.804,
+      "execution_time_ms": 20.79,
+      "nodes_explored": 589,
+      "collision_count": 0,
+      "execution_steps": 637
+    },
+    {
+      "scenario_id": 100,
+      "seed": 2099,
+      "planner_name": "Dijkstra",
+      "grid_width": 50,
+      "grid_height": 50,
+      "obstacle_density": 0.2,
+      "robot_radius": 0.35,
+      "start_pos": [
+        5,
+        5
+      ],
+      "goal_pos": [
+        45,
+        45
+      ],
+      "movement_mode": "8-connected (diagonal allowed)",
+      "planning_succeeded": true,
+      "goal_reached": true,
+      "path_cost": 64.77,
+      "path_length": 63.8,
+      "planning_time_ms": 32.698,
+      "execution_time_ms": 21.343,
+      "nodes_explored": 1797,
+      "collision_count": 0,
+      "execution_steps": 639
+    }
+  ]
+}
