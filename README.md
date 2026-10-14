@@ -304,7 +304,9 @@ Uniform-cost search — equivalent to A\* with $h(n) = 0$. Guaranteed optimal on
 
 Planning on a `Costmap` adds soft clearance penalties to each traversed cell:
 
-$$\text{step\_cost}(u \to v) = \text{dist}(u, v) \times \left(1 + w \cdot \frac{c(v)}{255}\right)$$
+$$
+\text{step\_cost}(u \to v) = \text{dist}(u, v) \times \left(1 + w \cdot \frac{c(v)}{255}\right)
+$$
 
 where $c(v)$ is the cell's inflation cost and $w$ is the `cost_weight` parameter. This steers paths toward higher-clearance corridors without making them infeasible.
 
