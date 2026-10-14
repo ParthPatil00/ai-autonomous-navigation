@@ -55,8 +55,12 @@ The simulation below shows the planned navigation path through an obstacle-fille
 - Deep Reinforcement Learning navigation policies
 - Non-holonomic (differential-drive) kinematic model
 - ROS 2 / hardware bridge
-
 ---
+## Demo Video
+
+Watch the AI-Based Autonomous Navigation System running in simulation.
+
+[▶ Watch the Navigation Demo](assets/videos/navigation_demo.mp4)
 
 ## Repository Structure
 
