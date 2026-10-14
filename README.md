@@ -43,6 +43,11 @@ All of the following are implemented and tested in the current source tree.
 | **Evaluation Metrics** | Path length, straight-line distance, path efficiency, execution time, angular smoothness | `evaluation/metrics.py` |
 | **Structured Logging** | Timestamped console logging per module | `utils/logging_utils.py` |
 
+## Simulation Preview
+
+The simulation below shows the planned navigation path through an obstacle-filled environment, with the robot's start and goal positions and simulated sensor readings.
+
+![Autonomous navigation simulation](assets/images/navigation_simulation.png)
 ### Planned — Not Yet Implemented
 
 - Dynamic local obstacle avoidance (e.g., Dynamic Window Approach)
